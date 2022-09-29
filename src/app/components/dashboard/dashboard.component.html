@@ -1,0 +1,46 @@
+
+<div class="dashboard-list">
+	<div class="wallet-summary flex flex-vertical-middle">
+		<div class="">
+			Sumar za mesiac?
+		</div>
+		<div class="summary-income">
+			{{income}}
+		</div>
+		<div class="summary-outcome">
+			{{outcome}}
+		</div>
+	</div>
+	<app-button 
+		customText="ASC" 
+		customClass="btn-sort"
+		(btnClick)="sortItemsAsc($event)"
+	></app-button>
+	<app-button 
+		customText="DESC" 
+		customClass="btn-sort"
+		(btnClick)="sortItemsDesc($event)"
+	></app-button>
+	<app-select (newItemEvent)="getMonth($event)" name="type" customType="type" [data]="months" first="vyberte mesiac"></app-select>
+	<app-dashboard-item
+		*ngFor="let item of items"
+		[item]="item" 
+	></app-dashboard-item>
+</div>
+
+
+
+
+
+
+
+<app-button 
+	customText="+" 
+	customClass="btn-add"
+	(btnClick)="getClick($event)"
+></app-button>
+
+<app-add-item *ngIf="showAddForm"
+	(onAddItem)="addItem($event.newItem,$event.newBillItems)" 
+	[data]="paymentType">
+</app-add-item>

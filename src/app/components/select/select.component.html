@@ -1,0 +1,10 @@
+<select 
+name="{{name}}" 
+[(ngModel)]="customType"
+(change)="selectOnChange($event)"
+>
+    <option value="">{{first}}</option>
+    <option *ngFor="let entity of data | keyvalue" value="{{ entity.key}}" >
+            {{ entity.value}}
+          </option>
+</select>

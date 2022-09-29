@@ -1,0 +1,14 @@
+.add-item-container{
+	position: fixed;
+	top: 50%;
+	width: 350px;
+	height: 350px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: #FFF;
+	z-index: 9999;
+	padding: 15px;
+	border: 1px solid #f4f6fa;
+	overflow: hidden;
+	border-radius: 10px;
+}

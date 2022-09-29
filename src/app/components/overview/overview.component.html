@@ -1,0 +1,30 @@
+<p>overview works!</p>
+<div *ngFor="let item of items">
+	{{item.text}}
+</div>
+
+<div class="flex">
+	<div style="display: block;width: 48%; margin-right:20px">
+	    <canvas #barChart=base-chart baseChart height="200"
+	      	id="bar"
+	        [data]="barChartData"
+	        [options]="barChartOptions"
+	        [plugins]="barChartPlugins"
+	        [type]="barChartType"
+	        >
+	    </canvas>
+	</div>	
+    <div style="display: block;width: 48%;margin-left:20px">
+  		<canvas #lineChart=base-chart baseChart height="200"
+		  	id="line"
+		    [type]="'line'"
+		    [data]="lineChartData"
+		    [options]="lineChartOptions"
+		    [legend]="lineChartLegend">
+  		</canvas>
+	</div>
+</div>
+
+
+
+

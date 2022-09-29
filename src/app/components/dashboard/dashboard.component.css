@@ -1,0 +1,26 @@
+.wallet-summary{
+
+}
+.summary-income{
+	color: green;
+}
+.summary-outcome{
+	color: red;
+}
+
+.dashboard-list{
+	border-radius: 10px;
+	overflow: hidden;
+	width: 50%;
+	margin: auto;
+	position: relative;
+	top: -35px;
+}
+
+.wallet-summary{
+	background-color: #FFF;
+	justify-content: space-between;
+	padding: 5px 10px;
+	height: 80px;
+	border-bottom: 1px solid #f4f6fa;
+}

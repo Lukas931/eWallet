@@ -1,0 +1,11 @@
+<div class="dashboard-item flex flex-vertical-middle" 
+	[ngClass] = "(item.type === 1) ? 'income' : (item.type === 2) ? 'outcome' : ''"
+>
+	<div class="">{{item.text}}</div>
+	<div class="">{{item.date | date:"dd. MM. YYYY"}}</div>
+	<div class="">{{item.value}}</div>
+	<a routerLink="/detail/{{item.id}}">
+	 	detail
+    </a>
+	
+</div>

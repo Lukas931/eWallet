@@ -1,0 +1,18 @@
+.btn-add{
+	border: unset;
+	background-color: #FFF;
+	border-radius: 5px;
+	height: 50px;
+	width: 50px;
+	box-shadow:inset 0 0 3px #b1b1b1;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	transition: all .4s;
+	font-size: 25px;
+	cursor: pointer;
+}
+.btn-add:hover{
+	background-color: #1a67d2;
+	color: #FFF;
+}
