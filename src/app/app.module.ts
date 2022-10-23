@@ -23,6 +23,7 @@ import { CategoriesComponent } from './components/categories/categories.componen
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatTableModule} from '@angular/material/table';
+import { CategoryItemComponent } from './components/category-item/category-item.component';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import {MatTableModule} from '@angular/material/table';
     DetailItemComponent,
     OverviewComponent,
     CategoriesComponent,
+    CategoryItemComponent,
 
   ],
   imports: [

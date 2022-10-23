@@ -5,5 +5,6 @@ export interface Item {
 	type:number;
 	date:number,
 	ico:number,
-	receiptId:string
+	receiptId:string,
+	category?:Array<number>
 }

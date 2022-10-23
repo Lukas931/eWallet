@@ -4,7 +4,7 @@ name="{{name}}"
 (change)="selectOnChange($event)"
 >
     <option value="">{{first}}</option>
-    <option *ngFor="let entity of data | keyvalue" value="{{ entity.key}}" >
-            {{ entity.value}}
+    <option *ngFor="let entity of data; let i = index " value="{{i}}" >
+            {{ entity}}
           </option>
 </select>

@@ -46,8 +46,8 @@ export class DashboardComponent implements OnInit {
               private companyService: CompanyService,
               private billItemsService:BillItemService
               ) { 
-    this.renderer.listen('window','click',(e:Event)=>{
-      if((e.target as Element).className === 'modal-open'){
+    this.renderer.listen('window','click',(e:Event)=> {
+      if((e.target as Element).classList.contains('modal-open')){
         this.hideModal();
       }
     });
@@ -161,6 +161,7 @@ export class DashboardComponent implements OnInit {
 
   generateMonths():string[]{
     const months = [...Array(12).keys()].map(key => new Date(0, key).toLocaleString('default', { month: 'long' }));
+    
     return months;
   }
 

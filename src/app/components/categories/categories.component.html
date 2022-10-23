@@ -1,1 +1,28 @@
-<p>categories works!</p>
+<h2>Kategorie</h2>
+<app-category-item
+draggable="true"
+    (dragstart)="onDragStart($event)" 
+    (dragover)="onDragOver($event)" 
+    (dragend)="onDragEnd($event)"
+	*ngFor="let category of categories"
+	[category]="category"></app-category-item>
+<h2>Spolocnosti bez zaradenia do kategorii</h2>
+<div *ngIf="companies">
+
+	<div *ngFor="let company of companies">
+		<div *ngIf = "company.category === undefined" class="company__item" #companyEl [attr.data-id]="company.ico">
+			{{company.name}}
+		</div>
+	</div>
+
+	<h2>Spolocnosti zaradene do kategorii</h2>
+	<div *ngFor="let company of companies">
+		<div *ngIf = "company.category !== undefined" class="company__item" #companyEl
+		[attr.data-id]="company.ico">
+			{{company.name}}----
+
+			{{company.category}}
+		</div>
+	</div>
+</div>
+

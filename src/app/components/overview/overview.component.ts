@@ -155,11 +155,11 @@ export class OverviewComponent implements OnInit {
     }
 
     for(let val in this.outcomeGraph){
-      this.lineChartData.datasets[0].data.push(this.outcomeGraph[val]);
+      this.lineChartData.datasets[0].data.push(this.outcomeGraph[val].toFixed(2));
     }
 
     for(let val in this.incomeGraph){
-      this.lineChartData.datasets[1].data.push(this.incomeGraph[val]);
+      this.lineChartData.datasets[1].data.push(this.incomeGraph[val].toFixed(2));
     }
     
 
@@ -185,7 +185,7 @@ export class OverviewComponent implements OnInit {
     });
 
     for(let val in this.outcomeShop){
-      this.barChartData.datasets[0].data.push(this.outcomeShop[val]);
+      this.barChartData.datasets[0].data.push(this.outcomeShop[val].toFixed(2));
     }
     this.barChart?.update();
   }
