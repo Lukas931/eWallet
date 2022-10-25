@@ -13,6 +13,7 @@ export class CategoriesComponent implements OnInit {
 
   categories: Category[] = [];
   companies?: any[];
+  category: number = 0;
   @ViewChild('companyEl') companyEl?: ElementRef<any>;
   @ViewChild('categoryEl') categoryEl?: ElementRef<any>;
 
@@ -31,7 +32,7 @@ export class CategoriesComponent implements OnInit {
       .subscribe((items) => {
         
         this.categories = items;
-        console.log(this.categories);
+     //   console.log(this.categories);
       });
   }
 
@@ -39,42 +40,46 @@ export class CategoriesComponent implements OnInit {
     this.companyService.getCompanies()
     .subscribe((company) => {
       this.companies = company;
-      console.log(this.companies);
+    //  console.log(this.companies);
     });
   }
 
   onDragStart(event: DragEvent):void {
-    console.log(`starting`, event);
+   
+    const dragedElement = event?.target as HTMLElement;
+    const dragedId = parseInt(dragedElement.getAttribute("data-id")!);
+   
+    this.category = dragedId;
+  
   }
   onDragOver(event: DragEvent) {
     //console.log('drag over', event);
   }
   onDragEnd(event: DragEvent):void {
-    console.log('drag end', event);
-    const dragedElement = this.categoryEl?.nativeElement;
     const droppedElement = this.companyEl?.nativeElement;
-   // console.log(this.ghostEl?.nativeElement.dataset['id']);
-   const companyIco = parseInt(this.companyEl?.nativeElement.dataset['id']);
-    console.log(dragedElement);
-    this.addCategoryToCompany(companyIco);
+   // console.log(droppedElement);
+    const companyIco = parseInt(this.companyEl?.nativeElement.dataset['id']);
+  
+    this.addCategoryToCompany(companyIco,this.category);
   }
 
-  addCategoryToCompany(company:number):void {
-   // console.log(company);
-    let companyEntity = this.companies?.filter(obj => {
-      return obj.ico === company
-      console.log(obj);
+  addCategoryToCompany(company:number,category:number):void {
+  
+    this.companies?.filter(obj => {
+   
+    if(obj.ico === company){
+      if(!Array.isArray(obj.category)){
+        obj.category = [];
+      }
+      if(!obj.category.includes(category)){
+        obj.category.push(category);
+      }      
+      //return obj;
+    }
+ 
     });
-
-    console.log(companyEntity);
-
-
-
-    //const company = {ico: item.ico, name: item.text};
-     
-    /*  this.companyService.addCompany(company).subscribe(
-        (response) => (this.companies.push(company))
-      );*/
+    console.log(this.companies);
+ 
   }
 
 }
