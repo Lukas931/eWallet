@@ -1,9 +1,17 @@
-import { Component, OnInit,ViewChild,ElementRef } from '@angular/core';
+import { Component, OnInit,ViewChildren,ElementRef,QueryList } from '@angular/core';
 import { Category } from '../../category';
 import {Company} from '../../company';
 
 import {CompanyService} from '../../services/company.service';
 import {CategoryService } from '../../services/category.service';
+
+import {DragDropModule} from '@angular/cdk/drag-drop';
+
+export interface LooseObject {
+  [key: number]: any
+}
+
+
 @Component({
   selector: 'app-categories',
   templateUrl: './categories.component.html',
@@ -14,8 +22,9 @@ export class CategoriesComponent implements OnInit {
   categories: Category[] = [];
   companies?: any[];
   category: number = 0;
-  @ViewChild('companyEl') companyEl?: ElementRef<any>;
-  @ViewChild('categoryEl') categoryEl?: ElementRef<any>;
+  @ViewChildren('companyEl') companyEl!: QueryList<any>;
+
+  categoriesObject: LooseObject = {};
 
   constructor(
     private categoryService: CategoryService,
@@ -29,57 +38,56 @@ export class CategoriesComponent implements OnInit {
 
   getCategories(): void {
     this.categoryService.getCategories()
-      .subscribe((items) => {
-        
-        this.categories = items;
-     //   console.log(this.categories);
+    .subscribe((items) => {
+      this.categories = items;
+      this.categoriesObject = {};
+      this.categories.forEach((category) => {
+        const id = category.id != null ? category.id : null;
+        this.categoriesObject[id!] = category.name;
       });
+    });
   }
 
   getCompanies(): void {
     this.companyService.getCompanies()
     .subscribe((company) => {
       this.companies = company;
-    //  console.log(this.companies);
     });
   }
 
   onDragStart(event: DragEvent):void {
-   
     const dragedElement = event?.target as HTMLElement;
     const dragedId = parseInt(dragedElement.getAttribute("data-id")!);
    
     this.category = dragedId;
-  
   }
   onDragOver(event: DragEvent) {
-    //console.log('drag over', event);
+    event.preventDefault();
   }
   onDragEnd(event: DragEvent):void {
-    const droppedElement = this.companyEl?.nativeElement;
-   // console.log(droppedElement);
-    const companyIco = parseInt(this.companyEl?.nativeElement.dataset['id']);
-  
-    this.addCategoryToCompany(companyIco,this.category);
+     
+    const posLeft = event.clientX;
+    const posTop = event.clientY;
+    
+    this.companyEl.toArray().forEach(val => {
+      if( posTop < val?.nativeElement.getBoundingClientRect().bottom && posTop > val?.nativeElement.getBoundingClientRect().top){
+        const companyIco = parseInt(val?.nativeElement.dataset['id']);
+        this.addCategoryToCompany(companyIco,this.category);
+      }
+    });
   }
 
   addCategoryToCompany(company:number,category:number):void {
-  
     this.companies?.filter(obj => {
-   
-    if(obj.ico === company){
-      if(!Array.isArray(obj.category)){
-        obj.category = [];
+      if(obj.ico === company){
+        if(typeof obj.category === 'undefined') {
+          obj.category = [];
+          obj.category.push(category);
+        } else {
+          obj.category.push(category);
+        }
       }
-      if(!obj.category.includes(category)){
-        obj.category.push(category);
-      }      
-      //return obj;
-    }
- 
     });
-    console.log(this.companies);
- 
   }
 
 }
