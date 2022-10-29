@@ -161,7 +161,6 @@ export class DashboardComponent implements OnInit {
 
   generateMonths():string[]{
     const months = [...Array(12).keys()].map(key => new Date(0, key).toLocaleString('default', { month: 'long' }));
-    
     return months;
   }
 

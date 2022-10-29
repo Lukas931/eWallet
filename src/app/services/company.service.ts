@@ -33,7 +33,7 @@ export class CompanyService {
   }
 
   updateCompany(ico:number,company:Company):Observable<Company>{
-    const url = `${this.apiUrl}?ico=${ico}`;
-    return this.http.post<Company>(url, company, httpOptions);
+    const url = `${this.apiUrl}/${ico}/`;
+    return this.http.put<Company>(url, company, httpOptions);
   }
 }

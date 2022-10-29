@@ -77,7 +77,19 @@ export class CategoriesComponent implements OnInit {
     });
   }
 
-  addCategoryToCompany(company:number,category:number):void {
+  removeCategory(category:number,company:number):void{
+    this.companies?.filter(obj => {
+      if(obj.ico === company){
+        const index = obj.category.indexOf(category);
+        if(index > -1){
+          obj.category.splice(index,1);
+        }
+        this.companyService.updateCompany(obj.id,obj).subscribe();
+      }
+    });
+  }
+
+  private addCategoryToCompany(company:number,category:number):void {
     this.companies?.filter(obj => {
       if(obj.ico === company){
         if(typeof obj.category === 'undefined') {
@@ -86,6 +98,7 @@ export class CategoriesComponent implements OnInit {
         } else {
           obj.category.push(category);
         }
+        this.companyService.updateCompany(obj.id,obj).subscribe();
       }
     });
   }
