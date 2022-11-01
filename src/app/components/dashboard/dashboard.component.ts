@@ -12,6 +12,11 @@ import {ItemService} from '../../services/item.service';
 import {CompanyService} from '../../services/company.service';
 import {BillItemService} from '../../services/bill-item.service';
 
+export interface LooseObject {
+  [key: number]: any
+}
+
+
 
 @Component({
   selector: 'app-dashboard',
@@ -40,6 +45,8 @@ export class DashboardComponent implements OnInit {
     ]
   }
 
+  companiesObject: LooseObject = {};
+
 
   constructor(private itemService: ItemService,
               private renderer: Renderer2,
@@ -55,13 +62,22 @@ export class DashboardComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.getAllBills();
+   
+    this.getRange(this.now);
+    this.getCompanies();
+  }
+
+  getAllBills():void {
     this.itemService.getItems().subscribe(
       (items) => (this.processItems(items))
     );
-    this.companyService.getCompanies().subscribe(
-      (company) => {this.companies = company} 
+  }
+
+  getBillsInMonth(range:number[]):void {
+    this.itemService.getItemsInRange(range).subscribe(
+      (items) => {this.processItems(items);console.log(items);}
     );
-    this.getRange(this.now);
   }
 
   processItems(items: Item[]){
@@ -147,12 +163,14 @@ export class DashboardComponent implements OnInit {
     return [firstDay,lastDay];
   }
 
-  getMonth(event:any):void{
-    const date = new Date(2022,event,1);
-    const range = this.getRange(date);
-    this.itemService.getItemsInRange(range).subscribe(
-      (items) => (this.processItems(items))
-    );
+  billsInMonth(event:any):void{
+    if(!event){
+      this.getAllBills();
+    } else {
+      const date = new Date(2022,event,1);
+      const range = this.getRange(date);
+      this.getBillsInMonth(range);
+    }
   }
 
   inRange(x:number,min:number,max:number){
@@ -162,6 +180,20 @@ export class DashboardComponent implements OnInit {
   generateMonths():string[]{
     const months = [...Array(12).keys()].map(key => new Date(0, key).toLocaleString('default', { month: 'long' }));
     return months;
+  }
+
+  getCompanies(): void {
+    this.companyService.getCompanies()
+    .subscribe((company) => { 
+      this.companies = company;
+
+      this.companiesObject = {};
+      this.companies.forEach((company) => {
+       // console.log(company);
+        /*const id = category.id != null ? category.id : null;*/
+        //this.companiesObject[company.ico] = company.id;console.log(this.companiesObject);
+      });
+    });
   }
 
 

@@ -21,11 +21,15 @@
 		customClass="btn-sort"
 		(btnClick)="sortItemsDesc($event)"
 	></app-button>
-	<app-select (newItemEvent)="getMonth($event)" name="type" customType="type" [data]="months" first="vyberte mesiac"></app-select>
-	<app-dashboard-item
+	<app-select (newItemEvent)="billsInMonth($event)" name="type" customType="type" [data]="months" first="vyberte mesiac"></app-select>
+	<div *ngIf="items.length! > 0">
+		<app-dashboard-item
 		*ngFor="let item of items"
 		[item]="item" 
-	></app-dashboard-item>
+		[companiesObject] = "companiesObject"
+		></app-dashboard-item>
+	</div>
+	<div *ngIf="items.length! === 0">Vo vybranom mesiaci neevidujem ziaden nakup</div>
 </div>
 
 
