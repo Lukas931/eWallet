@@ -100,7 +100,7 @@ export class OverviewComponent implements OnInit {
   }
 
   getDataForGraph(items:Item[]):void {
-    console.log(items);
+   
     this.lineGraph(items);
     this.barGraph(items);
   }

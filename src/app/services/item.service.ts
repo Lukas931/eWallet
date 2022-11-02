@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {HttpClient,HttpHeaders} from '@angular/common/http';
+import {HttpClient,HttpHeaders, HttpResponse} from '@angular/common/http';
 import {Observable} from 'rxjs';
 import {Item} from '../item';
  
@@ -21,6 +21,11 @@ export class ItemService {
 
   getItems():Observable<Item[]> {
     return this.http.get<Item[]>(this.apiUrl);
+  }
+
+  getPartOfAllBills(start:number,end:number): Observable<HttpResponse<Item[]>> {
+    const url = `${this.apiUrl}?_start=${start}&_end=${end}`;
+    return this.http.get<Item[]>(url, {observe: 'response'});
   }
 
 

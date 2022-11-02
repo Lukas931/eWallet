@@ -28,6 +28,10 @@ export class DashboardComponent implements OnInit {
   items: Item[] = [];
   income: number = 0;
   outcome: number = 0;
+  allowedScrollCount:number = 0;
+  currentScrollCount:number = 1;
+  start: number = 0;
+  end: number = 10;
   showAddForm: boolean = false;
   showAll:boolean = false;
   now: Date = new Date();
@@ -58,11 +62,29 @@ export class DashboardComponent implements OnInit {
         this.hideModal();
       }
     });
+    this.renderer.listen('window','scroll',(e:Event) => {
+    
+      if(this.allowedScrollCount > this.currentScrollCount){
+
+        if(Math.ceil(window.innerHeight + window.scrollY) > (window.document.body.scrollHeight - 2)){
+           
+          const siteBody = <HTMLInputElement>document.getElementById('main-content');
+          siteBody.classList.add('loading');
+          this.end = this.end + 10;
+          this.getPartOfAllBills(this.start, this.end);
+          this.currentScrollCount++;
+          setTimeout(() => {
+            siteBody.classList.remove('loading');
+          }, 1000)
+        }
+      }
+      
+    });
     this.months = this.generateMonths();
   }
 
   ngOnInit(): void {
-    this.getAllBills();
+    this.getPartOfAllBills(this.start, this.end);
    
     this.getRange(this.now);
     this.getCompanies();
@@ -74,9 +96,18 @@ export class DashboardComponent implements OnInit {
     );
   }
 
+  getPartOfAllBills(start:number, end:number):void {
+    this.itemService.getPartOfAllBills(start, end).subscribe(
+      (items) => {
+        this.allowedScrollCount = Math.ceil(+items.headers.get('x-total-count')! / 10);
+        this.processItems(items.body!);
+      }
+    );
+  }
+
   getBillsInMonth(range:number[]):void {
     this.itemService.getItemsInRange(range).subscribe(
-      (items) => {this.processItems(items);console.log(items);}
+      (items) => {this.processItems(items);}
     );
   }
 
