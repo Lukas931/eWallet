@@ -2,6 +2,11 @@
 	[ngClass] = "(item.type === 1) ? 'income' : (item.type === 2) ? 'outcome' : ''"
 >
 	<div class="">{{item.text}}</div>
+	<div class="">
+		<div *ngFor = "let category of companiesObject[item.ico]">
+			<div>{{categoriesObject[category]}}</div>
+		</div>
+	</div>
 	<div class="">{{item.date | date:"dd. MM. YYYY"}}</div>
 	<div class="">{{item.value}}</div>
 	<a routerLink="/detail/{{item.id}}">

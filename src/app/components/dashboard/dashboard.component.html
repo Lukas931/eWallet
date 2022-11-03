@@ -24,19 +24,16 @@
 	<app-select (newItemEvent)="billsInMonth($event)" name="type" customType="type" [data]="months" first="vyberte mesiac"></app-select>
 	<div *ngIf="items.length! > 0">
 		<app-dashboard-item
-		*ngFor="let item of items"
-		[item]="item" 
-		[companiesObject] = "companiesObject"
-		></app-dashboard-item>
+			*ngFor="let item of items"
+			[item]="item" 
+			[companiesObject] = "companiesObject"
+			[categoriesObject] = "categoriesObject">
+		</app-dashboard-item>
 	</div>
-	<div *ngIf="items.length! === 0">Vo vybranom mesiaci neevidujem ziaden nakup</div>
+	<div *ngIf="items.length! === 0">
+		Vo vybranom mesiaci neevidujem ziaden nakup
+	</div>
 </div>
-
-
-
-
-
-
 
 <app-button 
 	customText="+" 
@@ -45,6 +42,6 @@
 ></app-button>
 
 <app-add-item *ngIf="showAddForm"
-	(onAddItem)="addItem($event.newItem,$event.newBillItems)" 
+	(onAddItem)="addItem($event.newItem,$event.newBillItems)"
 	[data]="paymentType">
 </app-add-item>

@@ -10,8 +10,8 @@ import {Item} from '../../item';
 export class DashboardItemComponent implements OnInit {
 
   @Input() item!: Item;
-
-
+  @Input() companiesObject!: any;
+  @Input() categoriesObject!: any;
 
   constructor() {
 

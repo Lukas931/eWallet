@@ -61,14 +61,14 @@ export class CategoriesComponent implements OnInit {
    
     this.category = dragedId;
   }
+
   onDragOver(event: DragEvent) {
     event.preventDefault();
   }
+  
   onDragEnd(event: DragEvent):void {
-     
     const posLeft = event.clientX;
-    const posTop = event.clientY;
-    
+    const posTop = event.clientY;    
     this.companyEl.toArray().forEach(val => {
       if( posTop < val?.nativeElement.getBoundingClientRect().bottom && posTop > val?.nativeElement.getBoundingClientRect().top){
         const companyIco = parseInt(val?.nativeElement.dataset['id']);

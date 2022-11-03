@@ -16,6 +16,10 @@ export interface LooseObject {
   [key: number]: any
 }
 
+import { Category } from '../../category';
+
+import {CategoryService } from '../../services/category.service';
+
 
 
 @Component({
@@ -40,6 +44,8 @@ export class DashboardComponent implements OnInit {
 
   test:number = 0;
 
+  siteBody = <HTMLInputElement>document.getElementById('main-content');
+
   companies: Company[] = [];
 
   test2:BillItem = {
@@ -50,12 +56,16 @@ export class DashboardComponent implements OnInit {
   }
 
   companiesObject: LooseObject = {};
+  categories: Category[] = [];
+
+  categoriesObject: LooseObject = {};
 
 
   constructor(private itemService: ItemService,
               private renderer: Renderer2,
               private companyService: CompanyService,
-              private billItemsService:BillItemService
+              private billItemsService:BillItemService,
+              private categoryService: CategoryService
               ) { 
     this.renderer.listen('window','click',(e:Event)=> {
       if((e.target as Element).classList.contains('modal-open')){
@@ -63,22 +73,17 @@ export class DashboardComponent implements OnInit {
       }
     });
     this.renderer.listen('window','scroll',(e:Event) => {
-    
       if(this.allowedScrollCount > this.currentScrollCount){
-
         if(Math.ceil(window.innerHeight + window.scrollY) > (window.document.body.scrollHeight - 2)){
-           
-          const siteBody = <HTMLInputElement>document.getElementById('main-content');
-          siteBody.classList.add('loading');
+          this.siteBody.classList.add('loading');
           this.end = this.end + 10;
           this.getPartOfAllBills(this.start, this.end);
           this.currentScrollCount++;
           setTimeout(() => {
-            siteBody.classList.remove('loading');
+            this.siteBody.classList.remove('loading');
           }, 1000)
         }
       }
-      
     });
     this.months = this.generateMonths();
   }
@@ -88,6 +93,7 @@ export class DashboardComponent implements OnInit {
    
     this.getRange(this.now);
     this.getCompanies();
+    this.getCategories();
   }
 
   getAllBills():void {
@@ -165,8 +171,7 @@ export class DashboardComponent implements OnInit {
         (response) => (this.companies.push(company))
       );
     }
- 
-   
+
     this.toggleModal();
   }
 
@@ -220,10 +225,25 @@ export class DashboardComponent implements OnInit {
 
       this.companiesObject = {};
       this.companies.forEach((company) => {
-       // console.log(company);
-        /*const id = category.id != null ? category.id : null;*/
-        //this.companiesObject[company.ico] = company.id;console.log(this.companiesObject);
+        
+        this.companiesObject[company.ico] = company.category;
+    
       });
+      console.log(this.companiesObject);
+    });
+  }
+
+  getCategories(): void {
+    console.log(this.companiesObject);
+    this.categoryService.getCategories()
+    .subscribe((items) => {
+      this.categories = items;
+      this.categoriesObject = {};
+      this.categories.forEach((category) => {
+        const id = category.id != null ? category.id : null;
+        this.categoriesObject[id!] = category.name;
+      });
+      console.log(this.categoriesObject);
     });
   }
 

@@ -7,3 +7,13 @@
     
     margin-bottom: 10px;
 }
+.company__item-category {
+    background-color: #FFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.company__item-category:first-of-type{
+    margin-top: 5px;
+}
