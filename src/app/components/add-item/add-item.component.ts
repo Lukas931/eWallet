@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, Output, EventEmitter, ViewChild } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter, ViewChild,SimpleChanges } from '@angular/core';
 import { NgxScannerQrcodeComponent } from 'ngx-scanner-qrcode';
 
 import {Item} from '../../item';
@@ -6,6 +6,7 @@ import {BillItem} from '../../bill-item';
 
 
 import {BillService} from '../../services/bill.service';
+import {PopupService } from '../../services/popup.service';
 
 @Component({
   selector: 'app-add-item',
@@ -14,11 +15,12 @@ import {BillService} from '../../services/bill.service';
 })
 export class AddItemComponent implements OnInit {
   @Input() data: any[];
+  @Input() showAddForm: boolean = true;
   @Output() onAddItem:EventEmitter<{newItem:Item,newBillItems:BillItem}> = new EventEmitter;
 
-
-
   @ViewChild('action', { static: true }) action!: NgxScannerQrcodeComponent;
+
+  //popUpVisible:boolean = false;
 
   text: string ="";
   value: number = 0;
@@ -35,11 +37,18 @@ export class AddItemComponent implements OnInit {
     }]
   };
   
-  constructor( private billService: BillService) { 
+  constructor( private billService: BillService,
+    private popUpService: PopupService
+  ) { 
     this.data = Array();
   }
 
   ngOnInit(): void {
+   // this.popUpVisible = this.popUpService.isPopUpVisible;
+  }
+
+  ngOnDestroy(){
+    this.action.stop();
   }
 
   getType(event:any):void {
@@ -47,7 +56,7 @@ export class AddItemComponent implements OnInit {
   }
 
   onSubmit(): void {
-    
+   
     if(!this.text){
       alert("Prosim vyplne nazov");
     }
@@ -76,10 +85,13 @@ export class AddItemComponent implements OnInit {
   }
 
   getCode(event:string): void{
-    if(event.length != 0){
-      this.action.toggleCamera();
-      this.getBillInfo(event);
+    if(event !== null){
+      if(event .length != 0){
+        this.action.toggleCamera();
+        this.getBillInfo(event);
+      }
     }
+    
   }
   getBillInfo(billCode:string):void {
     var pattern = /(\d{2})\.(\d{2})\.(\d{4})/;

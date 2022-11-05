@@ -1,26 +1,18 @@
 import { Component, OnInit,Renderer2, ViewChild  } from '@angular/core';
-/*
-import { ChartConfiguration, ChartOptions, ChartType } from "chart.js";
-import { BaseChartDirective } from 'ng2-charts';
-*/
 
 import {Item} from '../../item';
 import {BillItem} from '../../bill-item';
 import {Company} from '../../company';
+import { Category } from '../../category';
 import {ItemService} from '../../services/item.service';
-
 import {CompanyService} from '../../services/company.service';
 import {BillItemService} from '../../services/bill-item.service';
+import {CategoryService } from '../../services/category.service';
+import {PopupService } from '../../services/popup.service';
 
 export interface LooseObject {
   [key: number]: any
 }
-
-import { Category } from '../../category';
-
-import {CategoryService } from '../../services/category.service';
-
-
 
 @Component({
   selector: 'app-dashboard',
@@ -40,20 +32,10 @@ export class DashboardComponent implements OnInit {
   showAll:boolean = false;
   now: Date = new Date();
   months: string[] = [];
+
   paymentType = ['Nic','prijem', 'Vydaj'];
-
-  test:number = 0;
-
   siteBody = <HTMLInputElement>document.getElementById('main-content');
-
   companies: Company[] = [];
-
-  test2:BillItem = {
-    billId:"",
-    items:[
-      {itemType:"",name:"",price:0,quantity:0,vatRate:0}
-    ]
-  }
 
   companiesObject: LooseObject = {};
   categories: Category[] = [];
@@ -65,7 +47,8 @@ export class DashboardComponent implements OnInit {
               private renderer: Renderer2,
               private companyService: CompanyService,
               private billItemsService:BillItemService,
-              private categoryService: CategoryService
+              private categoryService: CategoryService,
+              private popUpService: PopupService
               ) { 
     this.renderer.listen('window','click',(e:Event)=> {
       if((e.target as Element).classList.contains('modal-open')){
@@ -90,7 +73,6 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit(): void {
     this.getPartOfAllBills(this.start, this.end);
-   
     this.getRange(this.now);
     this.getCompanies();
     this.getCategories();
@@ -181,6 +163,7 @@ export class DashboardComponent implements OnInit {
 
   toggleModal():void{
     this.showAddForm = !this.showAddForm;
+    //this.popUpService.togglePopUpVisibility();
     if(this.showAddForm){
       this.renderer.addClass(document.body, 'modal-open');
     } else {
@@ -191,6 +174,7 @@ export class DashboardComponent implements OnInit {
   hideModal():void {
     this.showAddForm = !this.showAddForm;
     this.renderer.removeClass(document.body, 'modal-open');
+    this.popUpService.togglePopUpVisibility();
   }
 
   getRange(selectedDate: Date): number[]{
@@ -225,16 +209,12 @@ export class DashboardComponent implements OnInit {
 
       this.companiesObject = {};
       this.companies.forEach((company) => {
-        
         this.companiesObject[company.ico] = company.category;
-    
       });
-      console.log(this.companiesObject);
     });
   }
 
   getCategories(): void {
-    console.log(this.companiesObject);
     this.categoryService.getCategories()
     .subscribe((items) => {
       this.categories = items;
@@ -243,9 +223,16 @@ export class DashboardComponent implements OnInit {
         const id = category.id != null ? category.id : null;
         this.categoriesObject[id!] = category.name;
       });
-      console.log(this.categoriesObject);
     });
   }
+
+  trackBy(index:number, item:any): number {
+    return item.id;
+  }
+
+  /*get isPopUpVisible():boolean {
+    return this.popUpService.isPopUpVisible;
+  }*/
 
 
 }

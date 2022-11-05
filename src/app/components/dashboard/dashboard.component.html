@@ -24,7 +24,7 @@
 	<app-select (newItemEvent)="billsInMonth($event)" name="type" customType="type" [data]="months" first="vyberte mesiac"></app-select>
 	<div *ngIf="items.length! > 0">
 		<app-dashboard-item
-			*ngFor="let item of items"
+			*ngFor="let item of items;trackBy: trackBy"
 			[item]="item" 
 			[companiesObject] = "companiesObject"
 			[categoriesObject] = "categoriesObject">
@@ -41,7 +41,8 @@
 	(btnClick)="getClick($event)"
 ></app-button>
 
-<app-add-item *ngIf="showAddForm"
+<app-add-item [showAddForm] = "showAddForm" *ngIf="showAddForm"
 	(onAddItem)="addItem($event.newItem,$event.newBillItems)"
-	[data]="paymentType">
+	[data]="paymentType"
+	>
 </app-add-item>
