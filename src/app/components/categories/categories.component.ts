@@ -96,7 +96,9 @@ export class CategoriesComponent implements OnInit {
           obj.category = [];
           obj.category.push(category);
         } else {
-          obj.category.push(category);
+          if(!obj.category.includes(category)){
+            obj.category.push(category);
+          }
         }
         this.companyService.updateCompany(obj.id,obj).subscribe();
       }
