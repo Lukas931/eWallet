@@ -41,8 +41,7 @@
 	(btnClick)="getClick($event)"
 ></app-button>
 
-<app-add-item [showAddForm] = "showAddForm" *ngIf="showAddForm"
+<app-add-item *ngIf="showAddForm"
 	(onAddItem)="addItem($event.newItem,$event.newBillItems)"
 	[data]="paymentType"
-	>
-</app-add-item>
+></app-add-item>

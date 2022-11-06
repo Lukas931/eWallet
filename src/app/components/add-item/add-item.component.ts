@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, Output, EventEmitter, ViewChild,SimpleChanges } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter, ViewChild } from '@angular/core';
 import { NgxScannerQrcodeComponent } from 'ngx-scanner-qrcode';
 
 import {Item} from '../../item';

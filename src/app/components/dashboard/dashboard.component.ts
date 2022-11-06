@@ -58,13 +58,10 @@ export class DashboardComponent implements OnInit {
     this.renderer.listen('window','scroll',(e:Event) => {
       if(this.allowedScrollCount > this.currentScrollCount){
         if(Math.ceil(window.innerHeight + window.scrollY) > (window.document.body.scrollHeight - 2)){
-          this.siteBody.classList.add('loading');
           this.end = this.end + 10;
           this.getPartOfAllBills(this.start, this.end);
           this.currentScrollCount++;
-          setTimeout(() => {
-            this.siteBody.classList.remove('loading');
-          }, 1000)
+          this.loadPreloader();
         }
       }
     });
@@ -72,10 +69,18 @@ export class DashboardComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.loadPreloader();
     this.getPartOfAllBills(this.start, this.end);
     this.getRange(this.now);
     this.getCompanies();
     this.getCategories();
+  }
+
+  loadPreloader():void {
+    this.siteBody.classList.add('loading');
+    setTimeout(() => {
+      this.siteBody.classList.remove('loading');
+    }, 1000)
   }
 
   getAllBills():void {
@@ -174,7 +179,7 @@ export class DashboardComponent implements OnInit {
   hideModal():void {
     this.showAddForm = !this.showAddForm;
     this.renderer.removeClass(document.body, 'modal-open');
-    this.popUpService.togglePopUpVisibility();
+  //  this.popUpService.togglePopUpVisibility();
   }
 
   getRange(selectedDate: Date): number[]{
