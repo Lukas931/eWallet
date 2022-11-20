@@ -81,14 +81,6 @@
       "id": 10
     },
     {
-      "text": "",
-      "value": 0,
-      "type": 0,
-      "date": 1662901620110,
-      "ico": 0,
-      "id": 11
-    },
-    {
       "text": "KARMEN - veľkoobchod potravín s.r.o.",
       "value": 20.85,
       "type": 2,
@@ -121,24 +113,6 @@
       "ico": 36447269,
       "receiptId": "O-8C1FB3F9653B4DDD9FB3F9653B5DDDF2",
       "id": 15
-    },
-    {
-      "text": "MILK-AGRO, spol. s r.o.",
-      "value": 5.67,
-      "type": 2,
-      "date": 1660982703000,
-      "ico": 17147786,
-      "receiptId": "O-5BCA695BAFD04D958A695BAFD03D952C",
-      "id": 16
-    },
-    {
-      "text": "MILK-AGRO, spol. s r.o.",
-      "value": 7.01,
-      "type": 2,
-      "date": 1662709009000,
-      "ico": 17147786,
-      "receiptId": "O-BDA904249E054D68A904249E058D681A",
-      "id": 17
     },
     {
       "text": "Bottega, s.r.o.",
@@ -913,6 +887,32 @@
         }
       ],
       "id": 10
+    },
+    {
+      "billId": "",
+      "items": [
+        {
+          "itemType": "",
+          "name": "",
+          "price": 0,
+          "quantity": 0,
+          "vatRate": 0
+        }
+      ],
+      "id": 11
+    },
+    {
+      "billId": "",
+      "items": [
+        {
+          "itemType": "",
+          "name": "",
+          "price": 0,
+          "quantity": 0,
+          "vatRate": 0
+        }
+      ],
+      "id": 12
     }
   ],
   "comments": [
@@ -926,32 +926,68 @@
     {
       "ico": 35793783,
       "name": "Lidl Slovenská republika, v.o.s.",
-      "id": 1
+      "id": 1,
+      "category": [
+        1
+      ]
     },
     {
       "ico": 36447269,
       "name": "KARMEN - veľkoobchod potravín s.r.o.",
-      "id": 2
+      "id": 2,
+      "category": []
     },
     {
       "ico": 17147786,
       "name": "MILK-AGRO, spol. s r.o.",
-      "id": 3
+      "id": 3,
+      "category": [
+        1
+      ]
     },
     {
       "ico": 0,
       "name": "Tst prijem",
-      "id": 4
+      "id": 4,
+      "category": []
     },
     {
       "ico": 36183181,
       "name": "LABAŠ s.r.o.",
-      "id": 5
+      "id": 5,
+      "category": []
     },
     {
       "ico": 45926409,
       "name": "Bottega, s.r.o.",
-      "id": 6
+      "id": 6,
+      "category": []
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Potraviny"
+    },
+    {
+      "id": 2,
+      "name": "Drogéria"
+    },
+    {
+      "id": 3,
+      "name": "Tankovanie"
+    },
+    {
+      "id": 4,
+      "name": "Zdravie"
+    },
+    {
+      "id": 5,
+      "name": "Alkohol"
+    },
+    {
+      "id": 5,
+      "name": "Doprava"
     }
   ]
 }
