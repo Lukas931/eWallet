@@ -1,19 +1,25 @@
-.company__item{
-	padding: 5px 15px;
+.company__item {
+    padding: 5px 15px;
     background-color: #d0d3d7;
     color: #000;
     display: inline-block;
     border-radius: 5px;
-    
     margin-bottom: 10px;
 }
+
 .company__item-category {
     background-color: #FFF;
     padding: 5px 10px;
     border-radius: 5px;
     margin: 5px 0;
     cursor: pointer;
+    transition: all .4s;
 }
-.company__item-category:first-of-type{
+
+.company__item-category:hover {
+    background-color: rgb(255, 108, 108);
+}
+
+.company__item-category:first-of-type {
     margin-top: 5px;
 }

@@ -10,7 +10,7 @@ export class SelectComponent implements OnInit {
   @Input() data: any[];
   @Input() first: string;
   @Input() name: string;
-  @Output() customType: any;
+  @Output() customType: any = "";
 
   @Output() newItemEvent = new EventEmitter<string>();
 

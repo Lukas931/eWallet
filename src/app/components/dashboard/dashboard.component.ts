@@ -1,4 +1,4 @@
-import { Component, OnInit,Renderer2, ViewChild  } from '@angular/core';
+import { Component, OnInit,Renderer2, ViewChildren, QueryList, ElementRef } from '@angular/core';
 
 import {Item} from '../../item';
 import {BillItem} from '../../bill-item';
@@ -33,7 +33,11 @@ export class DashboardComponent implements OnInit {
   now: Date = new Date();
   months: string[] = [];
 
+  dateLabels: string[] = [];
+
   paymentType = ['Nic','prijem', 'Vydaj'];
+  monthName = ["Januar","Februar","Marec","April","Maj","Jun","Jul","August","September","Oktober","November","December"];
+
   siteBody = <HTMLInputElement>document.getElementById('main-content');
   companies: Company[] = [];
 
@@ -43,12 +47,16 @@ export class DashboardComponent implements OnInit {
   categoriesObject: LooseObject = {};
 
 
+  @ViewChildren("separator") separators!: QueryList<ElementRef<HTMLInputElement>>;
+
+
   constructor(private itemService: ItemService,
               private renderer: Renderer2,
               private companyService: CompanyService,
               private billItemsService:BillItemService,
               private categoryService: CategoryService,
-              private popUpService: PopupService
+              private popUpService: PopupService,
+              private element: ElementRef
               ) { 
     this.renderer.listen('window','click',(e:Event)=> {
       if((e.target as Element).classList.contains('modal-open')){
@@ -64,6 +72,7 @@ export class DashboardComponent implements OnInit {
           this.loadPreloader();
         }
       }
+
     });
     this.months = this.generateMonths();
   }
@@ -74,6 +83,15 @@ export class DashboardComponent implements OnInit {
     this.getRange(this.now);
     this.getCompanies();
     this.getCategories();
+    
+  }
+
+  ngAfterViewInit(){
+    this.separators.changes.subscribe(() => {
+      this.separators.toArray().forEach(el => {
+         // console.log(el);
+      });
+    });
   }
 
   loadPreloader():void {
@@ -108,8 +126,20 @@ export class DashboardComponent implements OnInit {
     this.income = 0;
     this.outcome = 0;
     this.items = [];
+    this.dateLabels = [];
     
     items.forEach(obj => {
+     
+
+      var test = obj.date;
+      var date = new Date(test);
+     // var day = date.getDate();
+      var month = date.getMonth();
+
+      if(!this.dateLabels.includes(this.monthName[month]+" "+date.getFullYear())){
+        this.dateLabels.push(this.monthName[month]+" "+date.getFullYear());      
+      }
+      
       if(obj.type === 1){
         this.income += obj.value;
       } 
@@ -119,7 +149,8 @@ export class DashboardComponent implements OnInit {
     });
 
     this.items = items;
-   
+    this.items = this.items.sort((a,b) =>  b.date - a.date);
+    
     return [
             this.items,
             this.outcome,
@@ -128,11 +159,11 @@ export class DashboardComponent implements OnInit {
   }
 
   sortItemsAsc(event:any){
-    this.items = this.items.sort((a,b) => a.text.localeCompare(b.text));
+    this.items = this.items.sort((a,b) => a.date - b.date);
   }
 
   sortItemsDesc(event:any){
-    this.items = this.items.sort((a,b) => b.text.localeCompare(a.text));
+    this.items = this.items.sort((a,b) =>  b.date - a.date);
   }
 
   addItem(item:Item,billItems:BillItem) {
@@ -235,9 +266,28 @@ export class DashboardComponent implements OnInit {
     return item.id;
   }
 
-  /*get isPopUpVisible():boolean {
-    return this.popUpService.isPopUpVisible;
-  }*/
+  scrollToMonth(label:string):void {
+    
+      const classElement = document.getElementsByClassName('end-'+label);
+      if(classElement.length > 0){
+        classElement[0].scrollIntoView({
+          behavior: 'smooth'
+        });
+      }
+ 
+  }
 
+  isScrolledIntoView():void {
+  //  console.log("aaa");
+    /*var rect = el.getBoundingClientRect();
+    var elemTop = rect.top;
+    var elemBottom = rect.bottom;
 
+    // Only completely visible elements return true:
+    var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+    console.log(rect);
+    // Partially visible elements return true:
+    //isVisible = elemTop < window.innerHeight && elemBottom >= 0;
+    return isVisible;*/
+  }
 }

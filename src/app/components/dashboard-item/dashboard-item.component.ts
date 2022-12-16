@@ -12,6 +12,7 @@ export class DashboardItemComponent implements OnInit {
   @Input() item!: Item;
   @Input() companiesObject!: any;
   @Input() categoriesObject!: any;
+  @Input() nextItem!: Item;
 
   constructor() {
 

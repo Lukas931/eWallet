@@ -1,10 +1,6 @@
-<select 
-name="{{name}}" 
-[(ngModel)]="customType"
-(change)="selectOnChange($event)"
->
-    <option value="">{{first}}</option>
-    <option *ngFor="let entity of data; let i = index " value="{{i}}" >
+<select name="{{name}}" [(ngModel)]="customType" (change)="selectOnChange($event)" [value]="">
+    <option value="" [selected] = "first === first">{{first}}</option>
+    <option *ngFor="let entity of data; let i = index " value="{{i}}"   >
             {{ entity}}
           </option>
 </select>

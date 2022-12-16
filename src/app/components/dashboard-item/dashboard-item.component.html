@@ -1,16 +1,16 @@
-<div *ngIf="item.value" class="dashboard-item flex flex-vertical-middle" 
-	[ngClass] = "(item.type === 1) ? 'income' : (item.type === 2) ? 'outcome' : ''"
->
-	<div class="">{{item.text}}</div>
-	<div class="">
-		<div *ngFor = "let category of companiesObject[item.ico]">
-			<div>{{categoriesObject[category]}}</div>
-		</div>
-	</div>
-	<div class="">{{item.date | date:"dd. MM. YYYY"}}</div>
-	<div class="">{{item.value}}</div>
-	<a routerLink="/detail/{{item.id}}">
-	 	detail
-    </a>
-	
+<div *ngIf="((item.date | date:'M y') != (nextItem?.date | date:'M y'))" class="dashboard-item flex flex-vertical-middle separator">
+    <strong>MESIAC {{item.date | date:'M y'}}</strong>
+</div>
+
+
+<div *ngIf="item.value" class="dashboard-item flex flex-vertical-middle" [ngClass]="(item.type === 1) ? 'income' : (item.type === 2) ? 'outcome' : ''">
+    <div class="">{{item.text}}</div>
+    <div class="">
+        <div *ngFor="let category of companiesObject[item.ico]">
+            <div>{{categoriesObject[category]}}</div>
+        </div>
+    </div>
+    <div class="">{{item.date | date:"dd. MM. YYYY"}}</div>
+    <div class="">{{item.value}}</div>
+    <a routerLink="/detail/{{item.id}}">detail</a>
 </div>

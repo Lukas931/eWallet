@@ -14,7 +14,7 @@ import { AddItemComponent } from './components/add-item/add-item.component';
 import { SelectComponent } from './components/select/select.component';
 import { HeaderComponent } from './components/header/header.component';
 import { DetailItemComponent } from './components/detail-item/detail-item.component';
-
+import { CategoryItemComponent } from './components/category-item/category-item.component';
 
 import { NgxScannerQrcodeModule } from 'ngx-scanner-qrcode';
 import { NgChartsModule } from 'ng2-charts';
@@ -23,7 +23,11 @@ import { CategoriesComponent } from './components/categories/categories.componen
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatTableModule} from '@angular/material/table';
-import { CategoryItemComponent } from './components/category-item/category-item.component';
+
+
+import { RouteReuseStrategy } from "@angular/router";
+import { CustomRouteReuseStrategy } from "./classes/custom-route-reuse-strategy";
+//import { CustomRouteReuseStrategyComponent } from './components/custom-route-reuse-strategy/custom-route-reuse-strategy.component';
 
 
 @NgModule({
@@ -51,7 +55,12 @@ import { CategoryItemComponent } from './components/category-item/category-item.
     BrowserAnimationsModule,
     MatTableModule
   ],
-  providers: [],
+  providers: [
+    {
+      provide: RouteReuseStrategy,
+      useClass: CustomRouteReuseStrategy,
+    },
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

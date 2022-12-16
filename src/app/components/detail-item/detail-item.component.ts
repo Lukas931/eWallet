@@ -40,6 +40,7 @@ export class DetailItemComponent implements OnInit {
         },2000)*/
       }
       if(event instanceof NavigationEnd){
+       
         this.getDetail();
 
         setTimeout(() => {
@@ -61,6 +62,7 @@ export class DetailItemComponent implements OnInit {
   }
 
   getDetail():void {
+  
     const id = Number(this.route.snapshot.params['id']);
     this.itemService.getDetail(id)
       .subscribe((items) => {
@@ -70,11 +72,13 @@ export class DetailItemComponent implements OnInit {
   }
 
   getBillItems(receipId:string):void{
-    this.billItemService.getBillItems(receipId).subscribe((items) => {
-      if(items.length){
-        this.itemsOfBill = items[0].items;
-      }      
-    });
+    if(receipId !== undefined){
+      this.billItemService.getBillItems(receipId).subscribe((items) => {
+        if(items.length){
+          this.itemsOfBill = items[0].items;
+        }      
+      });
+    }
   }
 
 }

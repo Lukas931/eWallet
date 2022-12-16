@@ -7,7 +7,8 @@ import { OverviewComponent } from './components/overview/overview.component';
 import { CategoriesComponent } from './components/categories/categories.component';
 
 const routes: Routes = [
-  {path: '', component:DashboardComponent},
+  {path:'', redirectTo:'/dashboard', pathMatch:'full'},
+  {path: 'dashboard', component:DashboardComponent, data: { reuseRoute: true }},
   {path: 'detail/:id', component:DetailItemComponent},
   {path: 'overview', component:OverviewComponent},
   {path: 'categories', component:CategoriesComponent}

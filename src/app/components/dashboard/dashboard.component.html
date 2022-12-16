@@ -1,47 +1,37 @@
+<div class="dashboard-list" (wheel)="isScrolledIntoView()">
+    <div class="wallet-summary flex flex-vertical-middle">
+        <div class="">
+            Sumar za mesiac?
+        </div>
+        <div class="summary-income">
+            {{income.toFixed(2)}}
+        </div>
+        <div class="summary-outcome">
+            {{outcome.toFixed(2)}}
+        </div>
+    </div>
+    <app-button customText="ASC" customClass="btn-sort" (btnClick)="sortItemsAsc($event)"></app-button>
+    <app-button customText="DESC" customClass="btn-sort" (btnClick)="sortItemsDesc($event)"></app-button>
+    <app-select (newItemEvent)="billsInMonth($event)" name="type" customType="type" [data]="months" first="vyberte mesiac"></app-select>
+    <div *ngIf="items.length! > 0">
+        <app-dashboard-item *ngFor="let item of items;
+			trackBy: trackBy;let i = 'index-1'" [item]="item" [nextItem]="items[i]" [companiesObject]="companiesObject" [categoriesObject]="categoriesObject" [ngClass]="((item.date | date:'M y') != (items[i]?.date | date:'M y') ? 'end-' + (item.date | date:'M-y') : '')"
+            #separator>
+        </app-dashboard-item>
 
-<div class="dashboard-list">
-	<div class="wallet-summary flex flex-vertical-middle">
-		<div class="">
-			Sumar za mesiac?
-		</div>
-		<div class="summary-income">
-			{{income.toFixed(2)}}
-		</div>
-		<div class="summary-outcome">
-			{{outcome.toFixed(2)}}
-		</div>
-	</div>
-	<app-button 
-		customText="ASC" 
-		customClass="btn-sort"
-		(btnClick)="sortItemsAsc($event)"
-	></app-button>
-	<app-button 
-		customText="DESC" 
-		customClass="btn-sort"
-		(btnClick)="sortItemsDesc($event)"
-	></app-button>
-	<app-select (newItemEvent)="billsInMonth($event)" name="type" customType="type" [data]="months" first="vyberte mesiac"></app-select>
-	<div *ngIf="items.length! > 0">
-		<app-dashboard-item
-			*ngFor="let item of items;trackBy: trackBy"
-			[item]="item" 
-			[companiesObject] = "companiesObject"
-			[categoriesObject] = "categoriesObject">
-		</app-dashboard-item>
-	</div>
-	<div *ngIf="items.length! === 0">
-		Vo vybranom mesiaci neevidujem ziaden nakup
-	</div>
+    </div>
+    <div *ngIf="dateLabels.length! > 0" class="month-filter">
+        <ul>
+            <li *ngFor="let label of dateLabels">
+                <button #item value="{{label | date:'M-y'}}" (click)="scrollToMonth(item.value)">{{label}}</button>
+            </li>
+        </ul>
+    </div>
+    <div *ngIf="items.length! === 0">
+        Vo vybranom mesiaci neevidujem ziaden nakup
+    </div>
 </div>
 
-<app-button 
-	customText="+" 
-	customClass="btn-add"
-	(btnClick)="getClick($event)"
-></app-button>
+<app-button customText="+" customClass="btn-add" (btnClick)="getClick($event)"></app-button>
 
-<app-add-item *ngIf="showAddForm"
-	(onAddItem)="addItem($event.newItem,$event.newBillItems)"
-	[data]="paymentType"
-></app-add-item>
+<app-add-item *ngIf="showAddForm" (onAddItem)="addItem($event.newItem,$event.newBillItems)" [data]="paymentType"></app-add-item>

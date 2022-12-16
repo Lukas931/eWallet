@@ -1,9 +1,14 @@
-.category__item-buble{
-	padding: 5px 15px;
-	background-color: #d0d3d7;
-	color: #000;
-	display: inline-block;
-	border-radius: 5px;
-	margin-right: 10px;
-	cursor: pointer;
+.category__item-buble {
+    padding: 5px 15px;
+    background-color: #d0d3d7;
+    color: #000;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.category__item-buble:hover {
+    background-color: rgb(141, 250, 141);
 }

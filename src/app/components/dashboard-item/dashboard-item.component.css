@@ -5,6 +5,7 @@
 	border-bottom: 1px solid #f4f6fa;
 	border-left: 2px solid;
 	justify-content: space-between;
+	
 }
 .dashboard-item.income{
 	border-left-color: green;

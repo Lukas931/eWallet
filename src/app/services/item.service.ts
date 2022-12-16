@@ -24,7 +24,7 @@ export class ItemService {
   }
 
   getPartOfAllBills(start:number,end:number): Observable<HttpResponse<Item[]>> {
-    const url = `${this.apiUrl}?_start=${start}&_end=${end}`;
+    const url = `${this.apiUrl}?_start=${start}&_end=${end}&_sort=date&_order=desc`;
     return this.http.get<Item[]>(url, {observe: 'response'});
   }
 
