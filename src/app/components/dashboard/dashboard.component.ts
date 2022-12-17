@@ -129,8 +129,6 @@ export class DashboardComponent implements OnInit {
     this.dateLabels = [];
     
     items.forEach(obj => {
-     
-
       var test = obj.date;
       var date = new Date(test);
      // var day = date.getDate();
@@ -166,30 +164,32 @@ export class DashboardComponent implements OnInit {
     this.items = this.items.sort((a,b) =>  b.date - a.date);
   }
 
-  addItem(item:Item,billItems:BillItem) {
-
-    this.itemService.addItem(item).subscribe(
-      (item) => {
-        this.items.push(item);
-        this.processItems(this.items);
-      }
-    );
-
-    this.billItemsService.addItem(billItems).subscribe();
- 
-    var isInSystem = this.companies.find(obj => {
-      return obj.ico == item.ico
-    });
-    
-    if(isInSystem === undefined || isInSystem === null){
-    
-      const company = {ico: item.ico, name: item.text};
+  async addItem(item:Item,billItems:BillItem) {
+    if(await this.itemService.checkReceipt(item.receiptId) > 0) {
      
-      this.companyService.addCompany(company).subscribe(
-        (response) => (this.companies.push(company))
+    } else {
+      this.itemService.addItem(item).subscribe(
+        (item) => {
+          this.items.push(item);
+          this.processItems(this.items);
+        }
       );
-    }
 
+      this.billItemsService.addItem(billItems).subscribe();
+ 
+      var isInSystem = this.companies.find(obj => {
+        return obj.ico == item.ico
+      });
+      
+      if(isInSystem === undefined || isInSystem === null){
+      
+        const company = {ico: item.ico, name: item.text};
+      
+        this.companyService.addCompany(company).subscribe(
+          (response) => (this.companies.push(company))
+        );
+      }
+    }
     this.toggleModal();
   }
 
@@ -267,14 +267,12 @@ export class DashboardComponent implements OnInit {
   }
 
   scrollToMonth(label:string):void {
-    
-      const classElement = document.getElementsByClassName('end-'+label);
-      if(classElement.length > 0){
-        classElement[0].scrollIntoView({
-          behavior: 'smooth'
-        });
-      }
- 
+    const classElement = document.getElementsByClassName('end-'+label);
+    if(classElement.length > 0){
+      classElement[0].scrollIntoView({
+        behavior: 'smooth'
+      });
+    }
   }
 
   isScrolledIntoView():void {

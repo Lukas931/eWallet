@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import {HttpClient,HttpHeaders, HttpResponse} from '@angular/common/http';
-import {Observable} from 'rxjs';
+import {Observable, of, Subscription,} from 'rxjs';
 import {Item} from '../item';
+import { switchMap,map } from 'rxjs/operators'
  
 const httpOptions = {
   headers: new HttpHeaders({
@@ -28,11 +29,9 @@ export class ItemService {
     return this.http.get<Item[]>(url, {observe: 'response'});
   }
 
-
   addItem(item:Item): Observable<Item>{
     return this.http.post<Item>(this.apiUrl, item,httpOptions);
   }
-
 
   getItemsInRange(array: number[]):Observable<Item[]>{
     const url = `${this.apiUrl}?date_gte=${array[0]}&date_lte=${array[1]}`;
@@ -43,4 +42,16 @@ export class ItemService {
     const url = `${this.apiUrl}?id=${id}`;
     return this.http.get<Item[]>(url);
   }   
+
+  checkReceipt (receipt: string): Promise<any>{
+    const url = `${this.apiUrl}?receiptId=${receipt}`;
+    let promise = new Promise((resolve, reject) => {
+     this.http.get(url).toPromise().then(
+        res=> {
+          return resolve(Object.keys(res!).length);
+        }
+     );
+    });
+    return promise;
+  }
 } 
