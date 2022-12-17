@@ -1,8 +1,7 @@
 import { Injectable } from '@angular/core';
 import {HttpClient,HttpHeaders, HttpResponse} from '@angular/common/http';
-import {Observable, of, Subscription,} from 'rxjs';
+import {Observable, lastValueFrom,firstValueFrom} from 'rxjs';
 import {Item} from '../item';
-import { switchMap,map } from 'rxjs/operators'
  
 const httpOptions = {
   headers: new HttpHeaders({
@@ -43,15 +42,9 @@ export class ItemService {
     return this.http.get<Item[]>(url);
   }   
 
-  checkReceipt (receipt: string): Promise<any>{
+ async checkReceipt (receipt: string): Promise<any>{
     const url = `${this.apiUrl}?receiptId=${receipt}`;
-    let promise = new Promise((resolve, reject) => {
-     this.http.get(url).toPromise().then(
-        res=> {
-          return resolve(Object.keys(res!).length);
-        }
-     );
-    });
-    return promise;
+    
+    return(lastValueFrom(this.http.get<Item[]>(url)));
   }
 } 

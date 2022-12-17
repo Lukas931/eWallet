@@ -165,9 +165,13 @@ export class DashboardComponent implements OnInit {
   }
 
   async addItem(item:Item,billItems:BillItem) {
-    if(await this.itemService.checkReceipt(item.receiptId) > 0) {
+  
+    let test = await this.itemService.checkReceipt(item.receiptId);
+    
+    if(test.length > 0) {
      
     } else {
+      
       this.itemService.addItem(item).subscribe(
         (item) => {
           this.items.push(item);
