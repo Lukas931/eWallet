@@ -42,7 +42,7 @@ export class ItemService {
     return this.http.get<Item[]>(url);
   }   
 
- async checkReceipt (receipt: string): Promise<any>{
+  checkReceipt (receipt: string): Promise<any>{
     const url = `${this.apiUrl}?receiptId=${receipt}`;
     
     return(lastValueFrom(this.http.get<Item[]>(url)));
