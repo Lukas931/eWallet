@@ -35,3 +35,7 @@
 <app-button customText="+" customClass="btn-add" (btnClick)="getClick($event)"></app-button>
 
 <app-add-item *ngIf="showAddForm" (onAddItem)="addItem($event.newItem,$event.newBillItems)" [data]="paymentType"></app-add-item>
+
+<ng-container *ngIf="showPopUp">
+    <app-popup customText="{{popUpText}}" customClass="{{popUpClass}}"></app-popup>
+</ng-container>

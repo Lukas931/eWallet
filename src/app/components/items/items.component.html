@@ -1,0 +1,28 @@
+<p>items works!</p>
+
+
+<!--<ul *ngFor="let item of billItems;">
+    <li *ngFor="let billItem of item.items;">
+        {{billItem.name}} -
+        <strong>{{billItem.price/billItem.quantity}}</strong> - {{item.date}}
+    </li>
+</ul>-->
+<ul class="alphabet-sort">
+    <li class="alphabet-item" (click)="filterByLetter('all')">Vsetko</li>
+    <li *ngFor="let item of alphabet" class="alphabet-item" (click)="filterByLetter(item)">{{item}}</li>
+</ul>
+<div class="row item-row" *ngFor="let item of secondaryItemsObject | keyvalue">
+    <div (click)="showDetail($event)">{{item.key}}</div>
+    <div class="table-container">
+        <table>
+            <tr>
+                <th>Datum</th>
+                <th>Cena</th>
+            </tr>
+            <tr *ngFor="let price of item.value.prices">
+                <td>{{objectKeys(price) | datepipe | date:"dd. MM. YYYY"}}</td>
+                <td>{{objectValues(price)}}</td>
+            </tr>
+        </table>
+    </div>
+</div>

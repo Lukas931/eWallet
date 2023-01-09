@@ -1,7 +1,7 @@
 export interface BillItem {
 	[key: string]: string | number | Array<{}>;
-	
 	billId:string,
+	date:number,
 	items:Array<itemOfBill>
 }
 
@@ -11,4 +11,6 @@ export interface itemOfBill {
 	price:number;
 	quantity:number;
 	vatRate:number;
+	
 }
+ 

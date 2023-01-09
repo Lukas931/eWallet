@@ -27,6 +27,9 @@ import {MatTableModule} from '@angular/material/table';
 
 import { RouteReuseStrategy } from "@angular/router";
 import { CustomRouteReuseStrategy } from "./classes/custom-route-reuse-strategy";
+import { PopupComponent } from './components/popup/popup.component';
+import { ItemsComponent } from './components/items/items.component';
+import { DatepipePipe } from './pipes/datepipe.pipe';
 //import { CustomRouteReuseStrategyComponent } from './components/custom-route-reuse-strategy/custom-route-reuse-strategy.component';
 
 
@@ -43,6 +46,9 @@ import { CustomRouteReuseStrategy } from "./classes/custom-route-reuse-strategy"
     OverviewComponent,
     CategoriesComponent,
     CategoryItemComponent,
+    PopupComponent,
+    ItemsComponent,
+    DatepipePipe,
 
   ],
   imports: [

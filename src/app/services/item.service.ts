@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import {HttpClient,HttpHeaders, HttpResponse} from '@angular/common/http';
-import {Observable, lastValueFrom,firstValueFrom} from 'rxjs';
+import {HttpClient,HttpHeaders, HttpResponse, HttpErrorResponse} from '@angular/common/http';
+import {Observable, lastValueFrom } from 'rxjs';
 import {Item} from '../item';
  
 const httpOptions = {
@@ -42,9 +42,16 @@ export class ItemService {
     return this.http.get<Item[]>(url);
   }   
 
-  checkReceipt (receipt: string): Promise<any>{
-    const url = `${this.apiUrl}?receiptId=${receipt}`;
+  getBillByReceiptId(receiptId:string):Promise<any>{
     
+    const url = `${this.apiUrl}?receiptId=${receiptId}`;
+    return lastValueFrom(this.http.get<Item[]>(url))
+    
+  }
+
+  checkReceipt(receipt: string):Promise<any>{
+    const url = `${this.apiUrl}?receiptId=${receipt}`;
+   
     return(lastValueFrom(this.http.get<Item[]>(url)));
   }
 } 

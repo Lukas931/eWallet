@@ -20,17 +20,29 @@ export class BillItemService {
   constructor(private http:HttpClient) { }
 
   getBillItems(receiptId:string):Observable<BillItem[]> {
-    
-   // var billToCheck = {'receiptId':`${receiptId}`};
-
-    //return this.http.post<BillItem>(this.apiUrl, billToCheck,httpOptions);
-
     const url = `${this.apiUrl}?billId=${receiptId}`;
     return this.http.get<BillItem[]>(url);
   }
 
-
   addItem(item:BillItem): Observable<BillItem>{
     return this.http.post<BillItem>(this.apiUrl, item,httpOptions);
   }
+
+  getAll():Observable<BillItem[]>{
+    return this.http.get<BillItem[]>(this.apiUrl);
+  }
+
+  /*getAllItem():Promise<BillItem[]>{
+    return this.http.get<BillItem[]>(this.apiUrl);
+  }*/
+
+  updateItem(id:any,item:BillItem) {
+    const url = `${this.apiUrl}/${id}`;
+    return this.http.put<BillItem>(url, item, httpOptions);
+  }
+
+  /*updateCompany(ico:number,company:Company):Observable<Company>{
+    const url = `${this.apiUrl}/${ico}/`;
+    return this.http.put<Company>(url, company, httpOptions);
+  }*/
 }

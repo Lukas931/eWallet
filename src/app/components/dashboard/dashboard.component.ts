@@ -8,7 +8,6 @@ import {ItemService} from '../../services/item.service';
 import {CompanyService} from '../../services/company.service';
 import {BillItemService} from '../../services/bill-item.service';
 import {CategoryService } from '../../services/category.service';
-import {PopupService } from '../../services/popup.service';
 
 export interface LooseObject {
   [key: number]: any
@@ -45,6 +44,9 @@ export class DashboardComponent implements OnInit {
   categories: Category[] = [];
 
   categoriesObject: LooseObject = {};
+  showPopUp:boolean = false;
+  popUpClass:string = "";
+  popUpText:string = "";
 
 
   @ViewChildren("separator") separators!: QueryList<ElementRef<HTMLInputElement>>;
@@ -55,7 +57,6 @@ export class DashboardComponent implements OnInit {
               private companyService: CompanyService,
               private billItemsService:BillItemService,
               private categoryService: CategoryService,
-              private popUpService: PopupService,
               private element: ElementRef
               ) { 
     this.renderer.listen('window','click',(e:Event)=> {
@@ -165,13 +166,18 @@ export class DashboardComponent implements OnInit {
   }
 
   async addItem(item:Item,billItems:BillItem) {
-  
-    let test = await this.itemService.checkReceipt(item.receiptId);
+    let alreadyUploaded = await this.itemService.checkReceipt(item.receiptId);
     
-    if(test.length > 0) {
-     
+    if(alreadyUploaded.length > 0) {
+   
+      this.showPopUp = !this.showPopUp;
+      this.popUpClass = "danger";
+      this.popUpText = "Ucet sa uz nachadza v databaze";
+      setTimeout(() => {
+        this.showPopUp = !this.showPopUp;
+      }, 4000);
+
     } else {
-      
       this.itemService.addItem(item).subscribe(
         (item) => {
           this.items.push(item);
@@ -186,13 +192,17 @@ export class DashboardComponent implements OnInit {
       });
       
       if(isInSystem === undefined || isInSystem === null){
-      
         const company = {ico: item.ico, name: item.text};
-      
         this.companyService.addCompany(company).subscribe(
           (response) => (this.companies.push(company))
         );
       }
+      this.showPopUp = !this.showPopUp;
+      this.popUpClass = "success";
+      this.popUpText = "Ucet bol nahrany";
+      setTimeout(() => {
+        this.showPopUp = !this.showPopUp;
+      }, 4000);
     }
     this.toggleModal();
   }
@@ -203,7 +213,6 @@ export class DashboardComponent implements OnInit {
 
   toggleModal():void{
     this.showAddForm = !this.showAddForm;
-    //this.popUpService.togglePopUpVisibility();
     if(this.showAddForm){
       this.renderer.addClass(document.body, 'modal-open');
     } else {
@@ -214,7 +223,6 @@ export class DashboardComponent implements OnInit {
   hideModal():void {
     this.showAddForm = !this.showAddForm;
     this.renderer.removeClass(document.body, 'modal-open');
-  //  this.popUpService.togglePopUpVisibility();
   }
 
   getRange(selectedDate: Date): number[]{

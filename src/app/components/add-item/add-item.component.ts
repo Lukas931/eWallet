@@ -3,10 +3,7 @@ import { NgxScannerQrcodeComponent } from 'ngx-scanner-qrcode';
 
 import {Item} from '../../item';
 import {BillItem} from '../../bill-item';
-
-
 import {BillService} from '../../services/bill.service';
-import {PopupService } from '../../services/popup.service';
 
 @Component({
   selector: 'app-add-item',
@@ -32,13 +29,13 @@ export class AddItemComponent implements OnInit {
 
   billItems:BillItem = {
     billId:"",
+    date:0,
     items:[{
-      itemType:"",name:"",price:0,quantity:0,vatRate:0
+      itemType:"",name:"",price:0,quantity:0,vatRate:0,
     }]
   };
   
-  constructor( private billService: BillService,
-    private popUpService: PopupService
+  constructor( private billService: BillService
   ) { 
     this.data = Array();
   }
@@ -106,6 +103,7 @@ export class AddItemComponent implements OnInit {
                         this.receipId = response.receipt.receiptId;
                         this.billItems.items = response.receipt.items;
                         this.billItems.billId = response.receipt.receiptId;
+                        this.billItems.date = this.date
                       }
       );
   }

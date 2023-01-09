@@ -1,145 +1,121 @@
 {
   "items": [
     {
-      "text": "LABAŠ s.r.o.",
-      "value": 1.44,
+      "text": "MILK-AGRO, spol. s r.o.",
+      "value": 3.89,
       "type": 2,
-      "date": 1660837045000,
-      "ico": 36183181,
+      "date": 1672224783000,
+      "ico": 17147786,
+      "receiptId": "O-BE8C7AED06EE47D48C7AED06EE87D4D0",
       "id": 1
     },
     {
-      "text": "LABAŠ s.r.o.",
-      "value": 5.05,
+      "text": "KARMEN - veľkoobchod potravín s.r.o.",
+      "value": 20.15,
       "type": 2,
-      "date": 1661946459000,
-      "ico": 36183181,
+      "date": 1671524371000,
+      "ico": 36447269,
+      "receiptId": "O-F87D79673F1D4031BD79673F1D4031E1",
       "id": 2
     },
     {
-      "text": "KARMEN - veľkoobchod potravín s.r.o.",
-      "value": 21.1,
+      "text": "Lidl Slovenská republika, v.o.s.",
+      "value": 11.03,
       "type": 2,
-      "date": 1660738880000,
-      "ico": 36447269,
+      "date": 1671650607000,
+      "ico": 35793783,
+      "receiptId": "O-721C480081084D6A9C480081081D6A7F",
       "id": 3
     },
     {
       "text": "LABAŠ s.r.o.",
-      "value": 29.75,
+      "value": 9.94,
       "type": 2,
-      "date": 1660982055000,
+      "date": 1671804444000,
       "ico": 36183181,
+      "receiptId": "O-862CEB457F024647ACEB457F02C64714",
       "id": 4
     },
     {
-      "text": "MILK-AGRO, spol. s r.o.",
-      "value": 7.01,
+      "text": "Decathlon SK s. r. o.",
+      "value": 20,
       "type": 2,
-      "date": 1662709009000,
-      "ico": 17147786,
+      "date": 1671357048000,
+      "ico": 47658827,
+      "receiptId": "O-E45A4C53D2B64F3F9A4C53D2B6EF3F2D",
       "id": 5
     },
     {
       "text": "KARMEN - veľkoobchod potravín s.r.o.",
-      "value": 20.85,
+      "value": 12.62,
       "type": 2,
-      "date": 1662096830000,
+      "date": 1671707973000,
       "ico": 36447269,
+      "receiptId": "O-9FB8E33E6E7744E2B8E33E6E77A4E28E",
       "id": 6
     },
     {
-      "text": "KARMEN - veľkoobchod potravín s.r.o.",
-      "value": 20.85,
+      "text": "LABAŠ s.r.o.",
+      "value": 7.33,
       "type": 2,
-      "date": 1662096830000,
-      "ico": 36447269,
+      "date": 1671649435000,
+      "ico": 36183181,
+      "receiptId": "O-63111BECD9984FC5911BECD998DFC5F9",
       "id": 7
     },
     {
-      "text": "Lidl Slovenská republika, v.o.s.",
-      "value": 9.04,
+      "text": "PPG Group s.r.o.",
+      "value": 23.99,
       "type": 2,
-      "date": 1662812116000,
-      "ico": 35793783,
+      "date": 1629124700000,
+      "ico": 51887819,
+      "receiptId": "O-DBFAD4BB9B064ECABAD4BB9B068ECADC",
       "id": 8
     },
     {
-      "text": "Lidl Slovenská republika, v.o.s.",
-      "value": 5.1,
+      "text": "Panta Rhei, s.r.o.",
+      "value": 29.9,
       "type": 2,
-      "date": 1662880026000,
-      "ico": 35793783,
+      "date": 1672157304000,
+      "ico": 31443923,
+      "receiptId": "O-4FE4FC4EED924084A4FC4EED92508482",
       "id": 9
     },
     {
-      "text": "KARMEN - veľkoobchod potravín s.r.o.",
-      "value": 20.85,
+      "text": "Lidl Slovenská republika, v.o.s.",
+      "value": 2.95,
       "type": 2,
-      "date": 1662096830000,
-      "ico": 36447269,
+      "date": 1667577473000,
+      "ico": 35793783,
+      "receiptId": "O-11213D6106BD47DDA13D6106BD37DD2F",
       "id": 10
     },
     {
-      "text": "KARMEN - veľkoobchod potravín s.r.o.",
-      "value": 20.85,
+      "text": "Lidl Slovenská republika, v.o.s.",
+      "value": 26.96,
       "type": 2,
-      "date": 1662096830000,
-      "ico": 36447269,
+      "date": 1667656223000,
+      "ico": 35793783,
+      "receiptId": "O-DF955073F65649AE955073F65689AE58",
+      "id": 11
+    },
+    {
+      "text": "MILK-AGRO, spol. s r.o.",
+      "value": 3.05,
+      "type": 2,
+      "date": 1662104131000,
+      "ico": 17147786,
+      "receiptId": "O-70B2E642611D417FB2E642611D517FF3",
       "id": 12
     },
     {
-      "text": "KARMEN - veľkoobchod potravín s.r.o.",
-      "value": 20.85,
+      "text": "Lidl Slovenská republika, v.o.s.",
+      "value": 13.19,
       "type": 2,
-      "date": 1662096830000,
-      "ico": 36447269,
+      "date": 1667657258000,
+      "ico": 35793783,
+      "receiptId": "O-6D89F3F3BC9C4B8889F3F3BC9C6B883C",
       "id": 13
-    },
-    {
-      "text": "KARMEN - veľkoobchod potravín s.r.o.",
-      "value": 20.85,
-      "type": 2,
-      "date": 1662096830000,
-      "ico": 36447269,
-      "receiptId": "O-8C1FB3F9653B4DDD9FB3F9653B5DDDF2",
-      "id": 14
-    },
-    {
-      "text": "KARMEN - veľkoobchod potravín s.r.o.",
-      "value": 20.85,
-      "type": 2,
-      "date": 1662096830000,
-      "ico": 36447269,
-      "receiptId": "O-8C1FB3F9653B4DDD9FB3F9653B5DDDF2",
-      "id": 15
-    },
-    {
-      "text": "Bottega, s.r.o.",
-      "value": 5.6,
-      "type": 2,
-      "date": 1663786337000,
-      "ico": 45926409,
-      "receiptId": "O-27BEA53D0793415DBEA53D0793815DCB",
-      "id": 18
-    },
-    {
-      "text": "Bottega, s.r.o.",
-      "value": 77.5,
-      "type": 2,
-      "date": 1663786354000,
-      "ico": 45926409,
-      "receiptId": "O-23758766390A4545B58766390AF5455E",
-      "id": 19
-    },
-    {
-      "text": "Bottega, s.r.o.",
-      "value": 77.5,
-      "type": 2,
-      "date": 1663786354000,
-      "ico": 45926409,
-      "receiptId": "O-23758766390A4545B58766390AF5455E",
-      "id": 20
     },
     {
       "text": "Lidl Slovenská republika, v.o.s.",
@@ -148,30 +124,2716 @@
       "date": 1663944701000,
       "ico": 35793783,
       "receiptId": "O-0A716AD8539D4A58B16AD8539DBA5843",
-      "id": 21
+      "id": 14
+    },
+    {
+      "text": "COOP Jednota Prešov, spotrebné družstvo",
+      "value": 5.4,
+      "type": 2,
+      "date": 1664875989000,
+      "ico": 169111,
+      "receiptId": "O-8A063D4E061B4F22863D4E061B1F2255",
+      "id": 15
     },
     {
       "text": "LABAŠ s.r.o.",
-      "value": 7.66,
+      "value": 10.65,
       "type": 2,
-      "date": 1663930748000,
+      "date": 1665412066000,
       "ico": 36183181,
-      "receiptId": "O-1853AA267232449F93AA267232E49F2C",
+      "receiptId": "O-A7BA7017D1B349ACBA7017D1B389AC37",
+      "id": 16
+    },
+    {
+      "text": "Bottega, s.r.o.",
+      "value": 5.6,
+      "type": 2,
+      "date": 1663786337000,
+      "ico": 45926409,
+      "receiptId": "O-27BEA53D0793415DBEA53D0793815DCB",
+      "id": 17
+    },
+    {
+      "text": "Lidl Slovenská republika, v.o.s.",
+      "value": 12.3,
+      "type": 2,
+      "date": 1663687880000,
+      "ico": 35793783,
+      "receiptId": "O-3B1C91EA17EC4CE39C91EA17EC6CE362",
+      "id": 18
+    },
+    {
+      "text": "KARMEN - veľkoobchod potravín s.r.o.",
+      "value": 2.4,
+      "type": 2,
+      "date": 1663657605000,
+      "ico": 36447269,
+      "receiptId": "O-CE1FA67FA95C48859FA67FA95CD88580",
+      "id": 19
+    },
+    {
+      "text": "MILK-AGRO, spol. s r.o.",
+      "value": 2.7,
+      "type": 2,
+      "date": 1664876669000,
+      "ico": 17147786,
+      "receiptId": "O-43199CA394014455999CA394012455F3",
+      "id": 20
+    },
+    {
+      "text": "Bottega, s.r.o.",
+      "value": 77.5,
+      "type": 2,
+      "date": 1663786354000,
+      "ico": 45926409,
+      "receiptId": "O-23758766390A4545B58766390AF5455E",
+      "id": 21
+    },
+    {
+      "text": "Lidl Slovenská republika, v.o.s.",
+      "value": 16.98,
+      "type": 2,
+      "date": 1661073538000,
+      "ico": 35793783,
+      "receiptId": "O-C2FC4BEFC508441ABC4BEFC508041A6B",
       "id": 22
     },
     {
-      "text": "test prijem",
-      "value": 105,
-      "type": 1,
-      "date": 1664104215161,
+      "text": "Lidl Slovenská republika, v.o.s.",
+      "value": 22.22,
+      "type": 2,
+      "date": 1660395888000,
+      "ico": 35793783,
+      "receiptId": "O-AC2E729CE3CF4AA0AE729CE3CFDAA014",
+      "id": 23
+    },
+    {
+      "text": "LABAŠ s.r.o.",
+      "value": 1.44,
+      "type": 2,
+      "date": 1660837045000,
+      "ico": 36183181,
+      "receiptId": "O-4B8E707C960B4E988E707C960B1E98FB",
+      "id": 24
+    },
+    {
+      "text": "LABAŠ s.r.o.",
+      "value": 1.65,
+      "type": 2,
+      "date": 1663154539000,
+      "ico": 36183181,
+      "receiptId": "O-80A00B29A7D74FA5A00B29A7D75FA5B8",
+      "id": 25
+    },
+    {
+      "text": "Lidl Slovenská republika, v.o.s.",
+      "value": 6.28,
+      "type": 2,
+      "date": 1662397064000,
+      "ico": 35793783,
+      "receiptId": "O-9E5091EA3A6343C49091EA3A6383C4A0",
+      "id": 26
+    },
+    {
+      "text": "Lidl Slovenská republika, v.o.s.",
+      "value": 1.39,
+      "type": 2,
+      "date": 1662396960000,
+      "ico": 35793783,
+      "receiptId": "O-1C6F85B9E1644416AF85B9E164041672",
+      "id": 27
+    },
+    {
+      "text": "KARMEN - veľkoobchod potravín s.r.o.",
+      "value": 21.1,
+      "type": 2,
+      "date": 1660738880000,
+      "ico": 36447269,
+      "receiptId": "O-AE942D201818419A942D201818A19A02",
+      "id": 28
+    },
+    {
+      "text": "MILK-AGRO, spol. s r.o.",
+      "value": 4.09,
+      "type": 2,
+      "date": 1672408075000,
+      "ico": 17147786,
+      "receiptId": "O-7EDAD96F753742A69AD96F753782A689",
+      "id": 29
+    },
+    {
+      "text": "LABAŠ s.r.o.",
+      "value": 5.05,
+      "type": 2,
+      "date": 1661946459000,
+      "ico": 36183181,
+      "receiptId": "O-9296A0A14D4A432696A0A14D4A53263D",
+      "id": 30
+    },
+    {
+      "text": "LABAŠ s.r.o.",
+      "value": 29.75,
+      "type": 2,
+      "date": 1660982055000,
+      "ico": 36183181,
+      "receiptId": "O-718FA2AADDC24B088FA2AADDC2BB08F7",
+      "id": 31
+    },
+    {
+      "text": "Lidl Slovenská republika, v.o.s.",
+      "value": 1.7,
+      "type": 2,
+      "date": 1662976386000,
+      "ico": 35793783,
+      "receiptId": "O-E079A6C43EF344ECB9A6C43EF3D4EC44",
+      "id": 32
+    },
+    {
+      "text": "Lidl Slovenská republika, v.o.s.",
+      "value": 7.36,
+      "type": 2,
+      "date": 1661956871000,
+      "ico": 35793783,
+      "receiptId": "O-A95E669E104F45399E669E104F45396A",
+      "id": 33
+    },
+    {
+      "text": "Lidl Slovenská republika, v.o.s.",
+      "value": 9.51,
+      "type": 2,
+      "date": 1661869515000,
+      "ico": 35793783,
+      "receiptId": "O-961641DFDA994D299641DFDA99DD2972",
+      "id": 34
+    },
+    {
+      "text": "KARMEN - veľkoobchod potravín s.r.o.",
+      "value": 20.85,
+      "type": 2,
+      "date": 1662096830000,
+      "ico": 36447269,
+      "receiptId": "O-8C1FB3F9653B4DDD9FB3F9653B5DDDF2",
+      "id": 35
+    },
+    {
+      "text": "MILK-AGRO, spol. s r.o.",
+      "value": 7.01,
+      "type": 2,
+      "date": 1662709009000,
+      "ico": 17147786,
+      "receiptId": "O-BDA904249E054D68A904249E058D681A",
+      "id": 36
+    },
+    {
+      "text": "",
+      "value": 0,
+      "type": 0,
+      "date": 1672483414932,
       "ico": 0,
       "receiptId": "",
-      "id": 23
+      "id": 37
+    },
+    {
+      "text": "MILK-AGRO, spol. s r.o.",
+      "value": 5.67,
+      "type": 2,
+      "date": 1660982703000,
+      "ico": 17147786,
+      "receiptId": "O-5BCA695BAFD04D958A695BAFD03D952C",
+      "id": 38
+    },
+    {
+      "text": "KARMEN - veľkoobchod potravín s.r.o.",
+      "value": 5.4,
+      "type": 2,
+      "date": 1663309570000,
+      "ico": 36447269,
+      "receiptId": "O-EBD56058FB5545F5956058FB5565F567",
+      "id": 39
+    },
+    {
+      "text": "LABAŠ s.r.o.",
+      "value": 20.85,
+      "type": 2,
+      "date": 1672226161000,
+      "ico": 36183181,
+      "receiptId": "O-1DE7C4E3CABB4839A7C4E3CABBC83994",
+      "id": 40
+    },
+    {
+      "text": "Lidl Slovenská republika, v.o.s.",
+      "value": 5.53,
+      "type": 2,
+      "date": 1672763020000,
+      "ico": 35793783,
+      "receiptId": "O-B0B622739335461BB622739335D61B88",
+      "id": 41
+    },
+    {
+      "text": "A3 SPORT s.r.o.",
+      "value": 6.7,
+      "type": 2,
+      "date": 1672761968000,
+      "ico": 36661856,
+      "receiptId": "O-7189FA9467E5496589FA9467E5496585",
+      "id": 42
+    },
+    {
+      "text": "KARMEN - veľkoobchod potravín s.r.o.",
+      "value": 8.83,
+      "type": 2,
+      "date": 1672842171000,
+      "ico": 36447269,
+      "receiptId": "O-5F8C34EC74434C0F8C34EC74432C0FE2",
+      "id": 43
+    },
+    {
+      "text": "Lidl Slovenská republika, v.o.s.",
+      "value": 7.09,
+      "type": 2,
+      "date": 1673112263000,
+      "ico": 35793783,
+      "receiptId": "O-65DD7F5D518C480B9D7F5D518CE80B3E",
+      "id": 44
+    },
+    {
+      "text": "dm drogerie markt, s.r.o.",
+      "value": 16.2,
+      "type": 2,
+      "date": 1672321208000,
+      "ico": 31393781,
+      "receiptId": "O-C9473A6E7C16491E873A6E7C16991E52",
+      "id": 45
+    },
+    {
+      "text": "LABAŠ s.r.o.",
+      "value": 4.6,
+      "type": 2,
+      "date": 1672935921000,
+      "ico": 36183181,
+      "receiptId": "O-FBAE33B05C8C4AA6AE33B05C8CAAA636",
+      "id": 46
     }
   ],
   "billItems": [
     {
+      "billId": "O-BE8C7AED06EE47D48C7AED06EE87D4D0",
+      "date": 1672224783000,
+      "items": [
+        {
+          "name": "ROZOK GRAHAMOVY",
+          "itemType": "K",
+          "quantity": 4,
+          "vatRate": 20,
+          "price": 1
+        },
+        {
+          "name": "ROZOK 50g BEZ E",
+          "itemType": "K",
+          "quantity": 8,
+          "vatRate": 10,
+          "price": 1.12
+        },
+        {
+          "name": "DZUS BRUSNICA RE",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.99
+        },
+        {
+          "name": "JOGURT KAVOVY",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.39
+        },
+        {
+          "name": "JOGURT KAVOVY",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.39
+        }
+      ],
+      "id": 1
+    },
+    {
+      "billId": "O-F87D79673F1D4031BD79673F1D4031E1",
+      "date": 1671524371000,
+      "items": [
+        {
+          "name": "SIRUP ZS 0,7l LESNA JAHODA",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.29
+        },
+        {
+          "name": "RAMA S MASLOM 400g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.99
+        },
+        {
+          "name": "RAMA S MASLOM 400g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.99
+        },
+        {
+          "name": "KUKURICA ZLATA 580ml +35% NAVIAC",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.65
+        },
+        {
+          "name": "HORALKY 50g IDC",
+          "itemType": "K",
+          "quantity": 3,
+          "vatRate": 20,
+          "price": 1.65
+        },
+        {
+          "name": "TAURIS TOREADOR SALAMA /kg",
+          "itemType": "K",
+          "quantity": 0.16,
+          "vatRate": 20,
+          "price": 2.22
+        },
+        {
+          "name": "CIMB ASPIK MORCACI /kg MINI",
+          "itemType": "K",
+          "quantity": 0.254,
+          "vatRate": 20,
+          "price": 2.77
+        },
+        {
+          "name": "ROZOK 50g BEZNE PECIVO",
+          "itemType": "K",
+          "quantity": 6,
+          "vatRate": 10,
+          "price": 0.78
+        },
+        {
+          "name": "TAURIS CBA BRAV SUNKA 92% PREM /kg",
+          "itemType": "K",
+          "quantity": 0.202,
+          "vatRate": 20,
+          "price": 2.4
+        },
+        {
+          "name": "CEST CESSI 400g TARHONA NEVAJ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.79
+        },
+        {
+          "name": "BANANY /kg",
+          "itemType": "K",
+          "quantity": 0.328,
+          "vatRate": 20,
+          "price": 0.62
+        }
+      ],
+      "id": 2
+    },
+    {
+      "billId": "O-F87D79673F1D4031BD79673F1D4031E1",
+      "date": 1671524371000,
+      "items": [
+        {
+          "name": "SIRUP ZS 0,7l LESNA JAHODA",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.29
+        },
+        {
+          "name": "RAMA S MASLOM 400g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.99
+        },
+        {
+          "name": "RAMA S MASLOM 400g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.99
+        },
+        {
+          "name": "KUKURICA ZLATA 580ml +35% NAVIAC",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.65
+        },
+        {
+          "name": "HORALKY 50g IDC",
+          "itemType": "K",
+          "quantity": 3,
+          "vatRate": 20,
+          "price": 1.65
+        },
+        {
+          "name": "TAURIS TOREADOR SALAMA /kg",
+          "itemType": "K",
+          "quantity": 0.16,
+          "vatRate": 20,
+          "price": 2.22
+        },
+        {
+          "name": "CIMB ASPIK MORCACI /kg MINI",
+          "itemType": "K",
+          "quantity": 0.254,
+          "vatRate": 20,
+          "price": 2.77
+        },
+        {
+          "name": "ROZOK 50g BEZNE PECIVO",
+          "itemType": "K",
+          "quantity": 6,
+          "vatRate": 10,
+          "price": 0.78
+        },
+        {
+          "name": "TAURIS CBA BRAV SUNKA 92% PREM /kg",
+          "itemType": "K",
+          "quantity": 0.202,
+          "vatRate": 20,
+          "price": 2.4
+        },
+        {
+          "name": "CEST CESSI 400g TARHONA NEVAJ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.79
+        },
+        {
+          "name": "BANANY /kg",
+          "itemType": "K",
+          "quantity": 0.328,
+          "vatRate": 20,
+          "price": 0.62
+        }
+      ],
+      "id": 3
+    },
+    {
+      "billId": "O-F87D79673F1D4031BD79673F1D4031E1",
+      "date": 1671524371000,
+      "items": [
+        {
+          "name": "SIRUP ZS 0,7l LESNA JAHODA",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.29
+        },
+        {
+          "name": "RAMA S MASLOM 400g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.99
+        },
+        {
+          "name": "RAMA S MASLOM 400g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.99
+        },
+        {
+          "name": "KUKURICA ZLATA 580ml +35% NAVIAC",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.65
+        },
+        {
+          "name": "HORALKY 50g IDC",
+          "itemType": "K",
+          "quantity": 3,
+          "vatRate": 20,
+          "price": 1.65
+        },
+        {
+          "name": "TAURIS TOREADOR SALAMA /kg",
+          "itemType": "K",
+          "quantity": 0.16,
+          "vatRate": 20,
+          "price": 2.22
+        },
+        {
+          "name": "CIMB ASPIK MORCACI /kg MINI",
+          "itemType": "K",
+          "quantity": 0.254,
+          "vatRate": 20,
+          "price": 2.77
+        },
+        {
+          "name": "ROZOK 50g BEZNE PECIVO",
+          "itemType": "K",
+          "quantity": 6,
+          "vatRate": 10,
+          "price": 0.78
+        },
+        {
+          "name": "TAURIS CBA BRAV SUNKA 92% PREM /kg",
+          "itemType": "K",
+          "quantity": 0.202,
+          "vatRate": 20,
+          "price": 2.4
+        },
+        {
+          "name": "CEST CESSI 400g TARHONA NEVAJ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.79
+        },
+        {
+          "name": "BANANY /kg",
+          "itemType": "K",
+          "quantity": 0.328,
+          "vatRate": 20,
+          "price": 0.62
+        }
+      ],
+      "id": 4
+    },
+    {
+      "billId": "O-721C480081084D6A9C480081081D6A7F",
+      "date": 1671650607000,
+      "items": [
+        {
+          "name": "Banány              ",
+          "itemType": "K",
+          "quantity": 0.554,
+          "vatRate": 20,
+          "price": 0.94
+        },
+        {
+          "name": "Lístkové cesto      ",
+          "itemType": "K",
+          "quantity": 2,
+          "vatRate": 20,
+          "price": 1.98
+        },
+        {
+          "name": "Steak z tuniaka     ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 3.99
+        },
+        {
+          "name": "Eidam30% plát.100g  ",
+          "itemType": "K",
+          "quantity": 2,
+          "vatRate": 20,
+          "price": 2.38
+        },
+        {
+          "name": "Mrkva sáčok 1kg     ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.55
+        },
+        {
+          "name": "Chlieb lámankový    ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.19
+        }
+      ],
+      "id": 5
+    },
+    {
+      "billId": "O-862CEB457F024647ACEB457F02C64714",
+      "date": 1671804444000,
+      "items": [
+        {
+          "name": "KÁVA INSTANTNÁ VELVET 200g JACOBS",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 4.45
+        },
+        {
+          "name": "SVIEČKY ČAJOVÉ 50ks",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.33
+        },
+        {
+          "name": "ŠUNKA PRAŽSKÁ ORIGINÁL cca 4kg |VÁHA| 92% PODIEL MÄSA HURKA",
+          "itemType": "K",
+          "quantity": 0.224,
+          "vatRate": 20,
+          "price": 1.93
+        },
+        {
+          "name": "VODA MINERÁLNA FATRA PRÍRODNÁ SÝTENÁ 1l PET VRATNÝ OBAL",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.08
+        },
+        {
+          "name": "ZÁLOHOVANÝ OBAL PET",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 0,
+          "price": 0.15
+        }
+      ],
+      "id": 6
+    },
+    {
+      "billId": "O-E45A4C53D2B64F3F9A4C53D2B6EF3F2D",
+      "date": 1671357048000,
+      "items": [
+        {
+          "name": "COMPRESSION . M SHORT-SL",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 10
+        },
+        {
+          "name": "COMPRESSION . M SHORT-SL",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 10
+        }
+      ],
+      "id": 7
+    },
+    {
+      "billId": "O-9FB8E33E6E7744E2B8E33E6E77A4E28E",
+      "date": 1671707973000,
+      "items": [
+        {
+          "name": "MASLO CERSTVE 250g LIPTOV",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 2.59
+        },
+        {
+          "name": "RAMA S MASLOM 400g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.99
+        },
+        {
+          "name": "RAMA S MASLOM 400g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.99
+        },
+        {
+          "name": "FAZULA BIELA V PARAD OM 420g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.95
+        },
+        {
+          "name": "DROZDIE FALA 42g ACCOM",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.35
+        },
+        {
+          "name": "PARAD PRETLAK 70g PATENT LUMARKT",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.25
+        },
+        {
+          "name": "OLIVY ZELENE BEZ KOSTKY 200ml GOR./",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.39
+        },
+        {
+          "name": "SYR DZIUGAS 100g STRUH ZRENIE 12m",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.59
+        },
+        {
+          "name": "ROZOK 50g BEZNE PECIVO",
+          "itemType": "K",
+          "quantity": 4,
+          "vatRate": 10,
+          "price": 0.52
+        }
+      ],
+      "id": 8
+    },
+    {
+      "billId": "O-63111BECD9984FC5911BECD998DFC5F9",
+      "date": 1671649435000,
+      "items": [
+        {
+          "name": "VIANOČKA S HROZIENKAMI 300g FRESH",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.87
+        },
+        {
+          "name": "MAK MLETÝ S CUKROM 200g DR.ENSA",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.08
+        },
+        {
+          "name": "MRKVA PRANÁ BALENÁ 1kg",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.08
+        },
+        {
+          "name": "OBLÁTKY VIANOČNÉ 55g GUĽATÉ ZELENÉ ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.49
+        },
+        {
+          "name": "CROISSANT DVOJFAREBNÝ LESNÁ ZMES 73g MINIT",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.68
+        },
+        {
+          "name": "KAPSA JABLKOVO-ŠKORICOVÁ 100g MINIT",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.64
+        },
+        {
+          "name": "PLETENKA 120g FRAPEK",
+          "itemType": "K",
+          "quantity": 2,
+          "vatRate": 20,
+          "price": 1.29
+        },
+        {
+          "name": "CESNAK ",
+          "itemType": "K",
+          "quantity": 0.04,
+          "vatRate": 10,
+          "price": 0.2
+        }
+      ],
+      "id": 9
+    },
+    {
+      "billId": "O-DBFAD4BB9B064ECABAD4BB9B068ECADC",
+      "date": 1629124700000,
+      "items": [
+        {
+          "name": "751792 FORCE-DOR USB FRONT|",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 23.99
+        }
+      ],
+      "id": 10
+    },
+    {
+      "billId": "O-4FE4FC4EED924084A4FC4EED92508482",
+      "date": 1672157304000,
+      "items": [
+        {
+          "name": "Hradba západu (Dobrodružstvá kapitána Báthoryho 5)",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 14.95
+        },
+        {
+          "name": "Anjel v podsvetí (Barbarič a Stein 7)",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 14.95
+        }
+      ],
+      "id": 11
+    },
+    {
+      "billId": "O-11213D6106BD47DDA13D6106BD37DD2F",
+      "date": 1667577473000,
+      "items": [
+        {
+          "name": "Tvar. odtuč. 250g   ",
+          "itemType": "K",
+          "quantity": 5,
+          "vatRate": 20,
+          "price": 2.95
+        }
+      ],
+      "id": 12
+    },
+    {
+      "billId": "O-DF955073F65649AE955073F65689AE58",
+      "date": 1667656223000,
+      "items": [
+        {
+          "name": "HP Postavička       ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.01
+        },
+        {
+          "name": "Zľava               ",
+          "itemType": "Z",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": -0.01
+        },
+        {
+          "name": "Eidam30% plát.100g  ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.99
+        },
+        {
+          "name": "Morč. pol. zmes     ",
+          "itemType": "K",
+          "quantity": 0.673,
+          "vatRate": 10,
+          "price": 2.69
+        },
+        {
+          "name": "Mleté brav.mäso     ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 4.39
+        },
+        {
+          "name": "Kyslá kapusta 810g  ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.89
+        },
+        {
+          "name": "LaktoFree smot.30%  ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.89
+        },
+        {
+          "name": "Deva Klasik Retro   ",
+          "itemType": "K",
+          "quantity": 2,
+          "vatRate": 20,
+          "price": 0.44
+        },
+        {
+          "name": "Tuniak vo vl.šťave  ",
+          "itemType": "K",
+          "quantity": 2,
+          "vatRate": 20,
+          "price": 2.98
+        },
+        {
+          "name": "Žemľová knedľa      ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.19
+        },
+        {
+          "name": "Mozzarella Classic  ",
+          "itemType": "K",
+          "quantity": 3,
+          "vatRate": 20,
+          "price": 2.37
+        },
+        {
+          "name": "Brokolica 500g      ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.99
+        },
+        {
+          "name": "Plody mora 250g     ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.59
+        },
+        {
+          "name": "411830 Čist.diskov  ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 4.99
+        },
+        {
+          "name": "Rožok bez \"E\" - DA  ",
+          "itemType": "K",
+          "quantity": 6,
+          "vatRate": 10,
+          "price": 0.72
+        },
+        {
+          "name": "Sorbitol. bonbóny   ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.59
+        },
+        {
+          "name": "Tic Tac Mint        ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.49
+        },
+        {
+          "name": "Kornbageta          ",
+          "itemType": "K",
+          "quantity": 3,
+          "vatRate": 20,
+          "price": 1.05
+        },
+        {
+          "name": "Bagetka svetlá      ",
+          "itemType": "K",
+          "quantity": 4,
+          "vatRate": 20,
+          "price": 0.76
+        },
+        {
+          "name": "Vratná záloha       ",
+          "itemType": "VO",
+          "quantity": 1,
+          "vatRate": 0,
+          "price": -1.35
+        },
+        {
+          "name": "Vratná záloha       ",
+          "itemType": "VO",
+          "quantity": 1,
+          "vatRate": 0,
+          "price": -2.7
+        }
+      ],
+      "id": 13
+    },
+    {
+      "billId": "O-70B2E642611D417FB2E642611D517FF3",
+      "date": 1662104131000,
+      "items": [
+        {
+          "name": "VIANOCKA S HROZ.",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.99
+        },
+        {
+          "name": "JOG.CUCORIEDKOVY",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.53
+        },
+        {
+          "name": "JOG.CUCORIEDKOVY",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.53
+        }
+      ],
+      "id": 14
+    },
+    {
+      "billId": "O-6D89F3F3BC9C4B8889F3F3BC9C6B883C",
+      "date": 1667657258000,
+      "items": [
+        {
+          "name": "Mrkva sáčok 1kg     ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.09
+        },
+        {
+          "name": "Kráľ.horč.kremžská  ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.99
+        },
+        {
+          "name": "Červ.kapusta 720ml  ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.89
+        },
+        {
+          "name": "Eidam30% plát.100g  ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.99
+        },
+        {
+          "name": "Tami Encián 110g    ",
+          "itemType": "K",
+          "quantity": 2,
+          "vatRate": 20,
+          "price": 1.7
+        },
+        {
+          "name": "Kaleráb             ",
+          "itemType": "K",
+          "quantity": 2,
+          "vatRate": 10,
+          "price": 1.38
+        },
+        {
+          "name": "Tvar. odtuč. 250g   ",
+          "itemType": "K",
+          "quantity": 4,
+          "vatRate": 20,
+          "price": 2.36
+        },
+        {
+          "name": "Colgate Sp.Diamond  ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.29
+        },
+        {
+          "name": "Niva OGT            ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.99
+        },
+        {
+          "name": "Paprika červená     ",
+          "itemType": "K",
+          "quantity": 0.154,
+          "vatRate": 10,
+          "price": 0.51
+        }
+      ],
+      "id": 15
+    },
+    {
+      "billId": "O-0A716AD8539D4A58B16AD8539DBA5843",
+      "date": 1663944701000,
+      "items": [
+        {
+          "name": "Tvar. odtuč. 250g   ",
+          "itemType": "K",
+          "quantity": 4,
+          "vatRate": 20,
+          "price": 3.16
+        },
+        {
+          "name": "Zľava Lidl Plus     ",
+          "itemType": "Z",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": -0.8
+        },
+        {
+          "name": "Chlieb lámankový    ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.49
+        },
+        {
+          "name": "Repa červená        ",
+          "itemType": "K",
+          "quantity": 0.592,
+          "vatRate": 20,
+          "price": 0.88
+        },
+        {
+          "name": "Mozzarella Light    ",
+          "itemType": "K",
+          "quantity": 4,
+          "vatRate": 20,
+          "price": 3
+        },
+        {
+          "name": "Mozzarella Classic  ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.75
+        }
+      ],
+      "id": 16
+    },
+    {
+      "billId": "O-8A063D4E061B4F22863D4E061B1F2255",
+      "date": 1664875989000,
+      "items": [
+        {
+          "name": "Tehla Michalovská 45% 1kg",
+          "itemType": "K",
+          "quantity": 0.234,
+          "vatRate": 20,
+          "price": 2.95
+        },
+        {
+          "name": "Rožok 50g",
+          "itemType": "K",
+          "quantity": 9,
+          "vatRate": 10,
+          "price": 1.08
+        },
+        {
+          "name": "Rožok grahamový 60g",
+          "itemType": "K",
+          "quantity": 6,
+          "vatRate": 20,
+          "price": 1.38
+        }
+      ],
+      "id": 17
+    },
+    {
+      "billId": "O-A7BA7017D1B349ACBA7017D1B389AC37",
+      "date": 1665412066000,
+      "items": [
+        {
+          "name": "CUKOR KRYŠTÁL 1kg KORUNNÝ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.19
+        },
+        {
+          "name": "RYŽA GUĽATÁ 1kg FRESH",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.99
+        },
+        {
+          "name": "Výplata -záloh.obal PET",
+          "itemType": "Z",
+          "quantity": 1,
+          "vatRate": 0,
+          "price": -1.2
+        },
+        {
+          "name": "MRAZENÁ KUKURICA 350g EQUUS",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.99
+        },
+        {
+          "name": "TABLETY ZINOK 100ks GYMBEAM",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 3.79
+        },
+        {
+          "name": "MRAZENÉ PIROHY SO ZEMIAKOVO-BRYNDZ. NÁPLŇOU 1kg STARÁ MAMA",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 3.89
+        }
+      ],
+      "id": 18
+    },
+    {
+      "billId": "O-27BEA53D0793415DBEA53D0793815DCB",
+      "date": 1663786337000,
+      "items": [
+        {
+          "name": "0,5l Hladinka Plzeň 12 ",
+          "itemType": "K",
+          "quantity": 4,
+          "vatRate": 20,
+          "price": 11.2
+        },
+        {
+          "name": "Zľava Zľava na celý účet",
+          "itemType": "Z",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": -5.6
+        }
+      ],
+      "id": 19
+    },
+    {
+      "billId": "O-3B1C91EA17EC4CE39C91EA17EC6CE362",
+      "date": 1663687880000,
+      "items": [
+        {
+          "name": "Linecké rožteky     ",
+          "itemType": "K",
+          "quantity": 2,
+          "vatRate": 20,
+          "price": 5.98
+        },
+        {
+          "name": "Kidney fazule 420g  ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.79
+        },
+        {
+          "name": "Šťavnaté želé cuk.  ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.79
+        },
+        {
+          "name": "Tvar. odtuč. 250g   ",
+          "itemType": "K",
+          "quantity": 6,
+          "vatRate": 20,
+          "price": 4.74
+        }
+      ],
+      "id": 20
+    },
+    {
+      "billId": "O-CE1FA67FA95C48859FA67FA95CD88580",
+      "date": 1663657605000,
+      "items": [
+        {
+          "name": "SOL JODOVANA S FLUOR 1kg",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.45
+        },
+        {
+          "name": "CAJ OVO 40g ZAHRADNA ZMES",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.99
+        },
+        {
+          "name": "ROZOK 50g BEZNE PECIVO",
+          "itemType": "K",
+          "quantity": 8,
+          "vatRate": 10,
+          "price": 0.96
+        }
+      ],
+      "id": 21
+    },
+    {
+      "billId": "O-43199CA394014455999CA394012455F3",
+      "date": 1664876669000,
+      "items": [
+        {
+          "name": "CHLIEB PSEN.RAZ.",
+          "itemType": "K",
+          "quantity": 0.5,
+          "vatRate": 10,
+          "price": 0.82
+        },
+        {
+          "name": "JOGURT KAVOVY",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.47
+        },
+        {
+          "name": "JOGURT KAVOVY",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.47
+        },
+        {
+          "name": "JOGURT ANANAS 15",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.47
+        },
+        {
+          "name": "JOGURT ANANAS 15",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.47
+        }
+      ],
+      "id": 22
+    },
+    {
+      "billId": "O-23758766390A4545B58766390AF5455E",
+      "date": 1663786354000,
+      "items": [
+        {
+          "name": "0,5l Šariš tmavé 11 ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.7
+        },
+        {
+          "name": "Jack Daniels 40  0,04l",
+          "itemType": "K",
+          "quantity": 2,
+          "vatRate": 20,
+          "price": 6.6
+        },
+        {
+          "name": "0,5l Pomelo-grep Birell",
+          "itemType": "K",
+          "quantity": 2,
+          "vatRate": 20,
+          "price": 3.8
+        },
+        {
+          "name": "Steak kurací 200g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 6.9
+        },
+        {
+          "name": "Varené zemiaky ,maslo 200g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.3
+        },
+        {
+          "name": "Romerquelle  0,33l",
+          "itemType": "K",
+          "quantity": 2,
+          "vatRate": 20,
+          "price": 4.2
+        },
+        {
+          "name": "P-Kuracie krídielka ch 800g",
+          "itemType": "K",
+          "quantity": 2,
+          "vatRate": 20,
+          "price": 22.8
+        },
+        {
+          "name": "Vyprážané cibuľové krúžky 200g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 6.9
+        },
+        {
+          "name": "Batatove hranolky 250g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 6.9
+        },
+        {
+          "name": "Tatarák z hov.svieckovice 150g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 16.8
+        },
+        {
+          "name": "Pizza Tycinky 180g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 3.9
+        },
+        {
+          "name": "Hrianky 60g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.8
+        },
+        {
+          "name": "Zľava Zľava na celý účet",
+          "itemType": "Z",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": -6.08
+        }
+      ],
+      "id": 23
+    },
+    {
+      "billId": "O-C2FC4BEFC508441ABC4BEFC508041A6B",
+      "date": 1661073538000,
+      "items": [
+        {
+          "name": "Zrej.syr jogurt     ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.69
+        },
+        {
+          "name": "Zľava Lidl Plus     ",
+          "itemType": "Z",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": -0.34
+        },
+        {
+          "name": "Zrej.syr classic    ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.69
+        },
+        {
+          "name": "Zľava Lidl Plus     ",
+          "itemType": "Z",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": -0.34
+        },
+        {
+          "name": "Banány              ",
+          "itemType": "K",
+          "quantity": 0.412,
+          "vatRate": 20,
+          "price": 0.7
+        },
+        {
+          "name": "Broskyne ploché     ",
+          "itemType": "K",
+          "quantity": 0.408,
+          "vatRate": 20,
+          "price": 1.02
+        },
+        {
+          "name": "Kivi                ",
+          "itemType": "K",
+          "quantity": 2,
+          "vatRate": 20,
+          "price": 0.66
+        },
+        {
+          "name": "Prem. zmrz. jahoda  ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.29
+        },
+        {
+          "name": "Snack mix,250g      ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.19
+        },
+        {
+          "name": "Deva Klasik         ",
+          "itemType": "K",
+          "quantity": 3,
+          "vatRate": 20,
+          "price": 0.72
+        },
+        {
+          "name": "Mozzarella Light    ",
+          "itemType": "K",
+          "quantity": 4,
+          "vatRate": 20,
+          "price": 3.56
+        },
+        {
+          "name": "Tvar. odtuč. 250g   ",
+          "itemType": "K",
+          "quantity": 6,
+          "vatRate": 20,
+          "price": 4.14
+        }
+      ],
+      "id": 24
+    },
+    {
+      "billId": "O-C2FC4BEFC508441ABC4BEFC508041A6B",
+      "date": 1661073538000,
+      "items": [
+        {
+          "name": "Zrej.syr jogurt     ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.69
+        },
+        {
+          "name": "Zľava Lidl Plus     ",
+          "itemType": "Z",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": -0.34
+        },
+        {
+          "name": "Zrej.syr classic    ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.69
+        },
+        {
+          "name": "Zľava Lidl Plus     ",
+          "itemType": "Z",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": -0.34
+        },
+        {
+          "name": "Banány              ",
+          "itemType": "K",
+          "quantity": 0.412,
+          "vatRate": 20,
+          "price": 0.7
+        },
+        {
+          "name": "Broskyne ploché     ",
+          "itemType": "K",
+          "quantity": 0.408,
+          "vatRate": 20,
+          "price": 1.02
+        },
+        {
+          "name": "Kivi                ",
+          "itemType": "K",
+          "quantity": 2,
+          "vatRate": 20,
+          "price": 0.66
+        },
+        {
+          "name": "Prem. zmrz. jahoda  ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.29
+        },
+        {
+          "name": "Snack mix,250g      ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.19
+        },
+        {
+          "name": "Deva Klasik         ",
+          "itemType": "K",
+          "quantity": 3,
+          "vatRate": 20,
+          "price": 0.72
+        },
+        {
+          "name": "Mozzarella Light    ",
+          "itemType": "K",
+          "quantity": 4,
+          "vatRate": 20,
+          "price": 3.56
+        },
+        {
+          "name": "Tvar. odtuč. 250g   ",
+          "itemType": "K",
+          "quantity": 6,
+          "vatRate": 20,
+          "price": 4.14
+        }
+      ],
+      "id": 25
+    },
+    {
+      "billId": "O-AC2E729CE3CF4AA0AE729CE3CFDAA014",
+      "date": 1660395888000,
+      "items": [
+        {
+          "name": "Dusená šunka        ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.29
+        },
+        {
+          "name": "Zľava Lidl Plus     ",
+          "itemType": "Z",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": -0.4
+        },
+        {
+          "name": "Kuch.utierky, 2x70  ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.29
+        },
+        {
+          "name": "Birell pomelo-grep  ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.59
+        },
+        {
+          "name": "Záloh. plechovka    ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 0,
+          "price": 0.15
+        },
+        {
+          "name": "Kráľ.horč.kremžská  ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.29
+        },
+        {
+          "name": "Šampiňóny krájané   ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.79
+        },
+        {
+          "name": "Žemľová knedľa      ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.99
+        },
+        {
+          "name": "LaktoFree smot.30%  ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.11
+        },
+        {
+          "name": "LactoFree smot.10%  ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.99
+        },
+        {
+          "name": "Br. krkov. bez k.   ",
+          "itemType": "K",
+          "quantity": 1.484,
+          "vatRate": 10,
+          "price": 8.89
+        },
+        {
+          "name": "Kávová tyčinka      ",
+          "itemType": "K",
+          "quantity": 2,
+          "vatRate": 20,
+          "price": 0.7
+        },
+        {
+          "name": "Čok. Toffee         ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.49
+        },
+        {
+          "name": "Suš. brusnice XXL   ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.79
+        },
+        {
+          "name": "Linecké rožteky     ",
+          "itemType": "K",
+          "quantity": 2,
+          "vatRate": 20,
+          "price": 4.98
+        },
+        {
+          "name": "Chlieb lámankový    ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.49
+        },
+        {
+          "name": "Pór                 ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.39
+        },
+        {
+          "name": "Vratná záloha       ",
+          "itemType": "VO",
+          "quantity": 1,
+          "vatRate": 0,
+          "price": -6.6
+        }
+      ],
+      "id": 26
+    },
+    {
+      "billId": "O-4B8E707C960B4E988E707C960B1E98FB",
+      "date": 1660837045000,
+      "items": [
+        {
+          "name": "VODA MINERÁLNA GEMERKA MAGNÉZIUM A VÁPNIK JEMNE PERLIVÁ 2l PET VRATNÝ OBAL",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.57
+        },
+        {
+          "name": "ZÁLOHOVANÝ OBAL PET",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 0,
+          "price": 0.15
+        },
+        {
+          "name": "ROŽOK 50g VAMEX bez É-čiek",
+          "itemType": "K",
+          "quantity": 6,
+          "vatRate": 10,
+          "price": 0.72
+        }
+      ],
+      "id": 27
+    },
+    {
+      "billId": "O-80A00B29A7D74FA5A00B29A7D75FA5B8",
+      "date": 1663154539000,
+      "items": [
+        {
+          "name": "OBLÁTKY HORALKY ARAŠIDOVÉ 50g IDC",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.36
+        },
+        {
+          "name": "CHLIEB ZEMIAKOVÝ 500g FRAPEK",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 1.29
+        }
+      ],
+      "id": 28
+    },
+    {
+      "billId": "O-9E5091EA3A6343C49091EA3A6383C4A0",
+      "date": 1662397064000,
+      "items": [
+        {
+          "name": "Pečivo raž. bio m.  ",
+          "itemType": "K",
+          "quantity": 6,
+          "vatRate": 20,
+          "price": 2.94
+        },
+        {
+          "name": "Zľava Lidl Plus     ",
+          "itemType": "Z",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": -1.2
+        },
+        {
+          "name": "Angl.slanina-plát.  ",
+          "itemType": "K",
+          "quantity": 2,
+          "vatRate": 20,
+          "price": 2.38
+        },
+        {
+          "name": "Zľava Lidl Plus     ",
+          "itemType": "Z",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": -0.6
+        },
+        {
+          "name": "Tvar. odtuč. 250g   ",
+          "itemType": "K",
+          "quantity": 4,
+          "vatRate": 20,
+          "price": 2.76
+        }
+      ],
+      "id": 29
+    },
+    {
+      "billId": "O-1C6F85B9E1644416AF85B9E164041672",
+      "date": 1662396960000,
+      "items": [
+        {
+          "name": "Chlieb bez E, 1kg   ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 1.39
+        }
+      ],
+      "id": 30
+    },
+    {
+      "billId": "O-AE942D201818419A942D201818A19A02",
+      "date": 1660738880000,
+      "items": [
+        {
+          "name": "OLEJ RACIOL 1l REPKOVY",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.99
+        },
+        {
+          "name": "BANANY /kg",
+          "itemType": "K",
+          "quantity": 0.316,
+          "vatRate": 20,
+          "price": 0.47
+        },
+        {
+          "name": "KREKERY CROCO 100g SLANE",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.55
+        },
+        {
+          "name": "KREKERY CROCO 100g SUNKA",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.55
+        },
+        {
+          "name": "RAMA S MASLOM A MORS SOLOU 400g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.79
+        },
+        {
+          "name": "RAMA S ALPSKYM MLIEKOM 400g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.79
+        },
+        {
+          "name": "CBA RUSKA ZMRZLINA 200ml",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.69
+        },
+        {
+          "name": "CBA RUSKA ZMRZLINA 200ml",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.69
+        },
+        {
+          "name": "CBA RUSKA ZMRZLINA 200ml",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.69
+        },
+        {
+          "name": "DROZDIE FALA 42g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.29
+        },
+        {
+          "name": "MIN KAPSA JABLK SKORIC 100gJEM PECI",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.75
+        },
+        {
+          "name": "MASLO CERSTVE 250g LIPTOV",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 2.69
+        },
+        {
+          "name": "SYR KARICKA 125g KLASIK",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.29
+        },
+        {
+          "name": "ALGIDA TWISTER ZELENY 80ml",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.69
+        },
+        {
+          "name": "ALGIDA TWISTER ZELENY 80ml",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.69
+        },
+        {
+          "name": "MECOM DEBRECINSKA SUNKA /kg",
+          "itemType": "K",
+          "quantity": 0.294,
+          "vatRate": 20,
+          "price": 2.5
+        }
+      ],
+      "id": 31
+    },
+    {
+      "billId": "O-AE942D201818419A942D201818A19A02",
+      "date": 1660738880000,
+      "items": [
+        {
+          "name": "OLEJ RACIOL 1l REPKOVY",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.99
+        },
+        {
+          "name": "BANANY /kg",
+          "itemType": "K",
+          "quantity": 0.316,
+          "vatRate": 20,
+          "price": 0.47
+        },
+        {
+          "name": "KREKERY CROCO 100g SLANE",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.55
+        },
+        {
+          "name": "KREKERY CROCO 100g SUNKA",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.55
+        },
+        {
+          "name": "RAMA S MASLOM A MORS SOLOU 400g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.79
+        },
+        {
+          "name": "RAMA S ALPSKYM MLIEKOM 400g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.79
+        },
+        {
+          "name": "CBA RUSKA ZMRZLINA 200ml",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.69
+        },
+        {
+          "name": "CBA RUSKA ZMRZLINA 200ml",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.69
+        },
+        {
+          "name": "CBA RUSKA ZMRZLINA 200ml",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.69
+        },
+        {
+          "name": "DROZDIE FALA 42g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.29
+        },
+        {
+          "name": "MIN KAPSA JABLK SKORIC 100gJEM PECI",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.75
+        },
+        {
+          "name": "MASLO CERSTVE 250g LIPTOV",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 2.69
+        },
+        {
+          "name": "SYR KARICKA 125g KLASIK",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.29
+        },
+        {
+          "name": "ALGIDA TWISTER ZELENY 80ml",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.69
+        },
+        {
+          "name": "ALGIDA TWISTER ZELENY 80ml",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.69
+        },
+        {
+          "name": "MECOM DEBRECINSKA SUNKA /kg",
+          "itemType": "K",
+          "quantity": 0.294,
+          "vatRate": 20,
+          "price": 2.5
+        }
+      ],
+      "id": 32
+    },
+    {
+      "billId": "O-7EDAD96F753742A69AD96F753782A689",
+      "date": 1672408075000,
+      "items": [
+        {
+          "name": "CAJ PIGI CITRON",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.79
+        },
+        {
+          "name": "VIANOCKA S HROZ.",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.99
+        },
+        {
+          "name": "TVAROH HRUD.1kg",
+          "itemType": "K",
+          "quantity": 0.19,
+          "vatRate": 20,
+          "price": 1.31
+        }
+      ],
+      "id": 33
+    },
+    {
+      "billId": "O-9296A0A14D4A432696A0A14D4A53263D",
+      "date": 1661946459000,
+      "items": [
+        {
+          "name": "CHLIEB ZEMIAKOVÝ 500g FRAPEK",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 1.26
+        },
+        {
+          "name": "ZEMIAKY ŽLTÉ SKORÉ",
+          "itemType": "K",
+          "quantity": 1.165,
+          "vatRate": 10,
+          "price": 1.13
+        },
+        {
+          "name": "PRSIA KURACIE BEZ KOSTI A KOŽE TR. A CHLADENÉ VOĽNÉ |VÁHA|",
+          "itemType": "K",
+          "quantity": 0.482,
+          "vatRate": 10,
+          "price": 2.64
+        }
+      ],
+      "id": 34
+    },
+    {
+      "billId": "O-718FA2AADDC24B088FA2AADDC2BB08F7",
+      "date": 1660982055000,
+      "items": [
+        {
+          "name": "LAK NA VLASY WELLAFLEX FULLNESS 250ml",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.5
+        },
+        {
+          "name": "SLIMÁK S BROKOLICOVOU NÁPLŇOU 90g VAMEX",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.52
+        },
+        {
+          "name": "ŠPONGIA MASÁŽNA OBDĹŽNÍK JANEGAL",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.54
+        },
+        {
+          "name": "PETRŽLEN II. TRIEDA",
+          "itemType": "K",
+          "quantity": 0.14,
+          "vatRate": 20,
+          "price": 0.41
+        },
+        {
+          "name": "SALÁMA TOREADOR cca 1200g |VÁHA| TAURIS",
+          "itemType": "K",
+          "quantity": 0.228,
+          "vatRate": 20,
+          "price": 2.88
+        },
+        {
+          "name": "BUJÓN ZELENINOVÝ ZLATÝ 3l 60g MAGGI",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.83
+        },
+        {
+          "name": "ŠUNKA DETSKÁ cca 2000g |VÁHA| 85% PODIEL MÄSA HURKA",
+          "itemType": "K",
+          "quantity": 0.264,
+          "vatRate": 20,
+          "price": 1.94
+        },
+        {
+          "name": "TOFU NATURÁLNE 180g LUNTER BEZLEP",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.78
+        },
+        {
+          "name": "UHORKY NAKLADAČKY ",
+          "itemType": "K",
+          "quantity": 0.425,
+          "vatRate": 10,
+          "price": 0.83
+        },
+        {
+          "name": "ROŽOK 50g VAMEX bez É-čiek",
+          "itemType": "K",
+          "quantity": 8,
+          "vatRate": 10,
+          "price": 0.94
+        },
+        {
+          "name": "ROŽOK GRAHAMOVÝ 55g FRAPEK",
+          "itemType": "K",
+          "quantity": 2,
+          "vatRate": 20,
+          "price": 0.43
+        },
+        {
+          "name": "CHLIEB RAŽNÝ 500g KB FRAPEK",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 1.62
+        },
+        {
+          "name": "CESTOVINY NIŤOVKY VAJEČNÉ 200g MONTI BUŠINSKÉ 8-VAJEČNÉ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.83
+        },
+        {
+          "name": "TVAROH OLOMOUCKÝ MÄKKÝ 250g OLMA",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.77
+        },
+        {
+          "name": "ČAJ BYLINNÝ SEDEM BYLINNÝ 30g POPRAD",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.97
+        },
+        {
+          "name": "NÁTIERKA PAŽITKOVÁ 100g LUNTER",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.83
+        },
+        {
+          "name": "PRSIA KURACIE BEZ KOSTI A KOŽE TR. A CHLADENÉ VOĽNÉ |VÁHA|",
+          "itemType": "K",
+          "quantity": 1.64,
+          "vatRate": 10,
+          "price": 11.23
+        },
+        {
+          "name": "KOFOLA ORIGINÁL 2l VRATNÝ OBAL",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.73
+        },
+        {
+          "name": "ZÁLOHOVANÝ OBAL PET",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 0,
+          "price": 0.15
+        }
+      ],
+      "id": 35
+    },
+    {
+      "billId": "O-718FA2AADDC24B088FA2AADDC2BB08F7",
+      "date": 1660982055000,
+      "items": [
+        {
+          "name": "LAK NA VLASY WELLAFLEX FULLNESS 250ml",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.5
+        },
+        {
+          "name": "SLIMÁK S BROKOLICOVOU NÁPLŇOU 90g VAMEX",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.52
+        },
+        {
+          "name": "ŠPONGIA MASÁŽNA OBDĹŽNÍK JANEGAL",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.54
+        },
+        {
+          "name": "PETRŽLEN II. TRIEDA",
+          "itemType": "K",
+          "quantity": 0.14,
+          "vatRate": 20,
+          "price": 0.41
+        },
+        {
+          "name": "SALÁMA TOREADOR cca 1200g |VÁHA| TAURIS",
+          "itemType": "K",
+          "quantity": 0.228,
+          "vatRate": 20,
+          "price": 2.88
+        },
+        {
+          "name": "BUJÓN ZELENINOVÝ ZLATÝ 3l 60g MAGGI",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.83
+        },
+        {
+          "name": "ŠUNKA DETSKÁ cca 2000g |VÁHA| 85% PODIEL MÄSA HURKA",
+          "itemType": "K",
+          "quantity": 0.264,
+          "vatRate": 20,
+          "price": 1.94
+        },
+        {
+          "name": "TOFU NATURÁLNE 180g LUNTER BEZLEP",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.78
+        },
+        {
+          "name": "UHORKY NAKLADAČKY ",
+          "itemType": "K",
+          "quantity": 0.425,
+          "vatRate": 10,
+          "price": 0.83
+        },
+        {
+          "name": "ROŽOK 50g VAMEX bez É-čiek",
+          "itemType": "K",
+          "quantity": 8,
+          "vatRate": 10,
+          "price": 0.94
+        },
+        {
+          "name": "ROŽOK GRAHAMOVÝ 55g FRAPEK",
+          "itemType": "K",
+          "quantity": 2,
+          "vatRate": 20,
+          "price": 0.43
+        },
+        {
+          "name": "CHLIEB RAŽNÝ 500g KB FRAPEK",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 1.62
+        },
+        {
+          "name": "CESTOVINY NIŤOVKY VAJEČNÉ 200g MONTI BUŠINSKÉ 8-VAJEČNÉ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.83
+        },
+        {
+          "name": "TVAROH OLOMOUCKÝ MÄKKÝ 250g OLMA",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.77
+        },
+        {
+          "name": "ČAJ BYLINNÝ SEDEM BYLINNÝ 30g POPRAD",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.97
+        },
+        {
+          "name": "NÁTIERKA PAŽITKOVÁ 100g LUNTER",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.83
+        },
+        {
+          "name": "PRSIA KURACIE BEZ KOSTI A KOŽE TR. A CHLADENÉ VOĽNÉ |VÁHA|",
+          "itemType": "K",
+          "quantity": 1.64,
+          "vatRate": 10,
+          "price": 11.23
+        },
+        {
+          "name": "KOFOLA ORIGINÁL 2l VRATNÝ OBAL",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.73
+        },
+        {
+          "name": "ZÁLOHOVANÝ OBAL PET",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 0,
+          "price": 0.15
+        }
+      ],
+      "id": 36
+    },
+    {
+      "billId": "O-718FA2AADDC24B088FA2AADDC2BB08F7",
+      "date": 1660982055000,
+      "items": [
+        {
+          "name": "LAK NA VLASY WELLAFLEX FULLNESS 250ml",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.5
+        },
+        {
+          "name": "SLIMÁK S BROKOLICOVOU NÁPLŇOU 90g VAMEX",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.52
+        },
+        {
+          "name": "ŠPONGIA MASÁŽNA OBDĹŽNÍK JANEGAL",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.54
+        },
+        {
+          "name": "PETRŽLEN II. TRIEDA",
+          "itemType": "K",
+          "quantity": 0.14,
+          "vatRate": 20,
+          "price": 0.41
+        },
+        {
+          "name": "SALÁMA TOREADOR cca 1200g |VÁHA| TAURIS",
+          "itemType": "K",
+          "quantity": 0.228,
+          "vatRate": 20,
+          "price": 2.88
+        },
+        {
+          "name": "BUJÓN ZELENINOVÝ ZLATÝ 3l 60g MAGGI",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.83
+        },
+        {
+          "name": "ŠUNKA DETSKÁ cca 2000g |VÁHA| 85% PODIEL MÄSA HURKA",
+          "itemType": "K",
+          "quantity": 0.264,
+          "vatRate": 20,
+          "price": 1.94
+        },
+        {
+          "name": "TOFU NATURÁLNE 180g LUNTER BEZLEP",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.78
+        },
+        {
+          "name": "UHORKY NAKLADAČKY ",
+          "itemType": "K",
+          "quantity": 0.425,
+          "vatRate": 10,
+          "price": 0.83
+        },
+        {
+          "name": "ROŽOK 50g VAMEX bez É-čiek",
+          "itemType": "K",
+          "quantity": 8,
+          "vatRate": 10,
+          "price": 0.94
+        },
+        {
+          "name": "ROŽOK GRAHAMOVÝ 55g FRAPEK",
+          "itemType": "K",
+          "quantity": 2,
+          "vatRate": 20,
+          "price": 0.43
+        },
+        {
+          "name": "CHLIEB RAŽNÝ 500g KB FRAPEK",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 1.62
+        },
+        {
+          "name": "CESTOVINY NIŤOVKY VAJEČNÉ 200g MONTI BUŠINSKÉ 8-VAJEČNÉ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.83
+        },
+        {
+          "name": "TVAROH OLOMOUCKÝ MÄKKÝ 250g OLMA",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.77
+        },
+        {
+          "name": "ČAJ BYLINNÝ SEDEM BYLINNÝ 30g POPRAD",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.97
+        },
+        {
+          "name": "NÁTIERKA PAŽITKOVÁ 100g LUNTER",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.83
+        },
+        {
+          "name": "PRSIA KURACIE BEZ KOSTI A KOŽE TR. A CHLADENÉ VOĽNÉ |VÁHA|",
+          "itemType": "K",
+          "quantity": 1.64,
+          "vatRate": 10,
+          "price": 11.23
+        },
+        {
+          "name": "KOFOLA ORIGINÁL 2l VRATNÝ OBAL",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.73
+        },
+        {
+          "name": "ZÁLOHOVANÝ OBAL PET",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 0,
+          "price": 0.15
+        }
+      ],
+      "id": 37
+    },
+    {
+      "billId": "O-E079A6C43EF344ECB9A6C43EF3D4EC44",
+      "date": 1662976386000,
+      "items": [
+        {
+          "name": "Slneč.sem.praž.     ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.69
+        },
+        {
+          "name": "Žemľová knedľa      ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.99
+        }
+      ],
+      "id": 38
+    },
+    {
+      "billId": "O-A95E669E104F45399E669E104F45396A",
+      "date": 1661956871000,
+      "items": [
+        {
+          "name": "Mozzarella Classic  ",
+          "itemType": "K",
+          "quantity": 4,
+          "vatRate": 20,
+          "price": 3.56
+        },
+        {
+          "name": "Zľava Lidl Plus     ",
+          "itemType": "Z",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": -0.96
+        },
+        {
+          "name": "Lístkové cesto      ",
+          "itemType": "K",
+          "quantity": 4,
+          "vatRate": 20,
+          "price": 4.76
+        }
+      ],
+      "id": 39
+    },
+    {
+      "billId": "O-961641DFDA994D299641DFDA99DD2972",
+      "date": 1661869515000,
+      "items": [
+        {
+          "name": "LaktoFree smot.30%  ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.79
+        },
+        {
+          "name": "Mrkva sáčok 1kg     ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.09
+        },
+        {
+          "name": "Zmes kešu-brus.     ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 2.49
+        },
+        {
+          "name": "Tvar. odtuč. 250g   ",
+          "itemType": "K",
+          "quantity": 6,
+          "vatRate": 20,
+          "price": 4.14
+        }
+      ],
+      "id": 40
+    },
+    {
       "billId": "O-8C1FB3F9653B4DDD9FB3F9653B5DDDF2",
+      "date": 1662096830000,
       "items": [
         {
           "name": "CBA BROKOLICOVA ZMES 350g FRIZANTO",
@@ -272,79 +2934,11 @@
           "price": -0.75
         }
       ],
-      "id": 1
-    },
-    {
-      "billId": "O-5BCA695BAFD04D958A695BAFD03D952C",
-      "items": [
-        {
-          "name": "MASLO  CERSTVE",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 10,
-          "price": 1.49
-        },
-        {
-          "name": "JOGURT ANANAS 15",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 10,
-          "price": 0.49
-        },
-        {
-          "name": "JOGURT ANANAS 15",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 10,
-          "price": 0.49
-        },
-        {
-          "name": "JOGURT KAVOVY",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 10,
-          "price": 0.49
-        },
-        {
-          "name": "JOG.CUCORIEDKOVY",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 10,
-          "price": 0.49
-        },
-        {
-          "name": "JOGURT KAVOVY",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 10,
-          "price": 0.49
-        },
-        {
-          "name": "JOG.CUCORIEDKOVY",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 10,
-          "price": 0.49
-        },
-        {
-          "name": "PAST.MAJKA 48G+5",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 0.55
-        },
-        {
-          "name": "CHLEBIK KUKURICN",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 0.69
-        }
-      ],
-      "id": 2
+      "id": 41
     },
     {
       "billId": "O-BDA904249E054D68A904249E058D681A",
+      "date": 1662709009000,
       "items": [
         {
           "name": "MLIEKO KEFIROVE",
@@ -424,495 +3018,519 @@
           "price": -0.37
         }
       ],
-      "id": 3
+      "id": 42
     },
     {
-      "billId": "O-27BEA53D0793415DBEA53D0793815DCB",
+      "billId": "",
+      "date": 0,
       "items": [
         {
-          "name": "0,5l Hladinka Plzeň 12 ",
-          "itemType": "K",
-          "quantity": 4,
-          "vatRate": 20,
-          "price": 11.2
-        },
-        {
-          "name": "Zľava Zľava na celý účet",
-          "itemType": "Z",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": -5.6
+          "itemType": "",
+          "name": "",
+          "price": 0,
+          "quantity": 0,
+          "vatRate": 0
         }
       ],
-      "id": 4
+      "id": 43
     },
     {
-      "billId": "O-23758766390A4545B58766390AF5455E",
+      "billId": "O-5BCA695BAFD04D958A695BAFD03D952C",
+      "date": 1660982703000,
       "items": [
         {
-          "name": "0,5l Šariš tmavé 11 ",
+          "name": "MASLO  CERSTVE",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 1.49
+        },
+        {
+          "name": "JOGURT ANANAS 15",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.49
+        },
+        {
+          "name": "JOGURT ANANAS 15",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.49
+        },
+        {
+          "name": "JOGURT KAVOVY",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.49
+        },
+        {
+          "name": "JOG.CUCORIEDKOVY",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.49
+        },
+        {
+          "name": "JOGURT KAVOVY",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.49
+        },
+        {
+          "name": "JOG.CUCORIEDKOVY",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.49
+        },
+        {
+          "name": "PAST.MAJKA 48G+5",
           "itemType": "K",
           "quantity": 1,
           "vatRate": 20,
-          "price": 1.7
+          "price": 0.55
         },
         {
-          "name": "Jack Daniels 40  0,04l",
-          "itemType": "K",
-          "quantity": 2,
-          "vatRate": 20,
-          "price": 6.6
-        },
-        {
-          "name": "0,5l Pomelo-grep Birell",
-          "itemType": "K",
-          "quantity": 2,
-          "vatRate": 20,
-          "price": 3.8
-        },
-        {
-          "name": "Steak kurací 200g",
+          "name": "CHLEBIK KUKURICN",
           "itemType": "K",
           "quantity": 1,
           "vatRate": 20,
-          "price": 6.9
-        },
-        {
-          "name": "Varené zemiaky ,maslo 200g",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 2.3
-        },
-        {
-          "name": "Romerquelle  0,33l",
-          "itemType": "K",
-          "quantity": 2,
-          "vatRate": 20,
-          "price": 4.2
-        },
-        {
-          "name": "P-Kuracie krídielka ch 800g",
-          "itemType": "K",
-          "quantity": 2,
-          "vatRate": 20,
-          "price": 22.8
-        },
-        {
-          "name": "Vyprážané cibuľové krúžky 200g",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 6.9
-        },
-        {
-          "name": "Batatove hranolky 250g",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 6.9
-        },
-        {
-          "name": "Tatarák z hov.svieckovice 150g",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 16.8
-        },
-        {
-          "name": "Pizza Tycinky 180g",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 3.9
-        },
-        {
-          "name": "Hrianky 60g",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 0.8
-        },
-        {
-          "name": "Zľava Zľava na celý účet",
-          "itemType": "Z",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": -6.08
+          "price": 0.69
         }
       ],
-      "id": 5
+      "id": 44
     },
     {
-      "billId": "O-23758766390A4545B58766390AF5455E",
+      "billId": "O-5BCA695BAFD04D958A695BAFD03D952C",
+      "date": 1660982703000,
       "items": [
         {
-          "name": "0,5l Šariš tmavé 11 ",
+          "name": "MASLO  CERSTVE",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 1.49
+        },
+        {
+          "name": "JOGURT ANANAS 15",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.49
+        },
+        {
+          "name": "JOGURT ANANAS 15",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.49
+        },
+        {
+          "name": "JOGURT KAVOVY",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.49
+        },
+        {
+          "name": "JOG.CUCORIEDKOVY",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.49
+        },
+        {
+          "name": "JOGURT KAVOVY",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.49
+        },
+        {
+          "name": "JOG.CUCORIEDKOVY",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.49
+        },
+        {
+          "name": "PAST.MAJKA 48G+5",
           "itemType": "K",
           "quantity": 1,
           "vatRate": 20,
-          "price": 1.7
+          "price": 0.55
         },
         {
-          "name": "Jack Daniels 40  0,04l",
-          "itemType": "K",
-          "quantity": 2,
-          "vatRate": 20,
-          "price": 6.6
-        },
-        {
-          "name": "0,5l Pomelo-grep Birell",
-          "itemType": "K",
-          "quantity": 2,
-          "vatRate": 20,
-          "price": 3.8
-        },
-        {
-          "name": "Steak kurací 200g",
+          "name": "CHLEBIK KUKURICN",
           "itemType": "K",
           "quantity": 1,
           "vatRate": 20,
-          "price": 6.9
-        },
-        {
-          "name": "Varené zemiaky ,maslo 200g",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 2.3
-        },
-        {
-          "name": "Romerquelle  0,33l",
-          "itemType": "K",
-          "quantity": 2,
-          "vatRate": 20,
-          "price": 4.2
-        },
-        {
-          "name": "P-Kuracie krídielka ch 800g",
-          "itemType": "K",
-          "quantity": 2,
-          "vatRate": 20,
-          "price": 22.8
-        },
-        {
-          "name": "Vyprážané cibuľové krúžky 200g",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 6.9
-        },
-        {
-          "name": "Batatove hranolky 250g",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 6.9
-        },
-        {
-          "name": "Tatarák z hov.svieckovice 150g",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 16.8
-        },
-        {
-          "name": "Pizza Tycinky 180g",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 3.9
-        },
-        {
-          "name": "Hrianky 60g",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 0.8
-        },
-        {
-          "name": "Zľava Zľava na celý účet",
-          "itemType": "Z",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": -6.08
+          "price": 0.69
         }
       ],
-      "id": 6
+      "id": 45
     },
     {
-      "billId": "O-23758766390A4545B58766390AF5455E",
+      "billId": "O-EBD56058FB5545F5956058FB5565F567",
+      "date": 1663309570000,
       "items": [
         {
-          "name": "0,5l Šariš tmavé 11 ",
+          "name": "SNITKA CEREALNA 64g KRISTIA **",
+          "itemType": "K",
+          "quantity": 3,
+          "vatRate": 20,
+          "price": 0.99
+        },
+        {
+          "name": "ROZOK 50g BEZNE PECIVO",
+          "itemType": "K",
+          "quantity": 10,
+          "vatRate": 10,
+          "price": 1.2
+        },
+        {
+          "name": "TAURIS SUNKA ZIPSER SPEC /kg",
+          "itemType": "K",
+          "quantity": 0.266,
+          "vatRate": 20,
+          "price": 2.63
+        },
+        {
+          "name": "ZORA SOJOVE REZY 50g",
           "itemType": "K",
           "quantity": 1,
           "vatRate": 20,
-          "price": 1.7
+          "price": 0.29
         },
         {
-          "name": "Jack Daniels 40  0,04l",
-          "itemType": "K",
-          "quantity": 2,
-          "vatRate": 20,
-          "price": 6.6
-        },
-        {
-          "name": "0,5l Pomelo-grep Birell",
-          "itemType": "K",
-          "quantity": 2,
-          "vatRate": 20,
-          "price": 3.8
-        },
-        {
-          "name": "Steak kurací 200g",
+          "name": "ZORA SOJOVE REZY 50g",
           "itemType": "K",
           "quantity": 1,
           "vatRate": 20,
-          "price": 6.9
-        },
-        {
-          "name": "Varené zemiaky ,maslo 200g",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 2.3
-        },
-        {
-          "name": "Romerquelle  0,33l",
-          "itemType": "K",
-          "quantity": 2,
-          "vatRate": 20,
-          "price": 4.2
-        },
-        {
-          "name": "P-Kuracie krídielka ch 800g",
-          "itemType": "K",
-          "quantity": 2,
-          "vatRate": 20,
-          "price": 22.8
-        },
-        {
-          "name": "Vyprážané cibuľové krúžky 200g",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 6.9
-        },
-        {
-          "name": "Batatove hranolky 250g",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 6.9
-        },
-        {
-          "name": "Tatarák z hov.svieckovice 150g",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 16.8
-        },
-        {
-          "name": "Pizza Tycinky 180g",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 3.9
-        },
-        {
-          "name": "Hrianky 60g",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 0.8
-        },
-        {
-          "name": "Zľava Zľava na celý účet",
-          "itemType": "Z",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": -6.08
+          "price": 0.29
         }
       ],
-      "id": 7
+      "id": 46
     },
     {
-      "billId": "O-0A716AD8539D4A58B16AD8539DBA5843",
+      "billId": "O-1DE7C4E3CABB4839A7C4E3CABBC83994",
+      "date": 1672226161000,
+      "items": [
+        {
+          "name": "UTIERKA HUBKOVÁ SAVÁ 3ks FRESH",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.54
+        },
+        {
+          "name": "KAPUSTA ČERVENÁ ",
+          "itemType": "K",
+          "quantity": 1.78,
+          "vatRate": 10,
+          "price": 1.92
+        },
+        {
+          "name": "PRSIA KURACIE BEZ KOSTI A KOŽE TR. A CHLADENÉ VOĽNÉ |VÁHA|",
+          "itemType": "K",
+          "quantity": 0.624,
+          "vatRate": 10,
+          "price": 3.51
+        },
+        {
+          "name": "TYČINKY SLANÉ170g !!! DRU -DÓZA",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.57
+        },
+        {
+          "name": "KEČUP JEMNÝ 500g PODRAVKA",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.67
+        },
+        {
+          "name": "CHLIEB ZEMIAKOVÝ 500g FRAPEK",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 1.44
+        },
+        {
+          "name": "SALÁMA TOREADOR cca 1200g |VÁHA| TAURIS",
+          "itemType": "K",
+          "quantity": 0.186,
+          "vatRate": 20,
+          "price": 2.03
+        },
+        {
+          "name": "ŠUNKA PRAŽSKÁ ORIGINÁL cca 4kg |VÁHA| 92% PODIEL MÄSA HURKA",
+          "itemType": "K",
+          "quantity": 0.278,
+          "vatRate": 20,
+          "price": 2.4
+        },
+        {
+          "name": "ŠUNKA DEBRECÍNKA cca 3000g |VÁHA| HÔRKA",
+          "itemType": "K",
+          "quantity": 0.168,
+          "vatRate": 20,
+          "price": 1.81
+        },
+        {
+          "name": "JOGURT ACTIVIA ČUČORIEDKA 120g DANONE",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.54
+        },
+        {
+          "name": "JOGURT ACTIVIA JAHODA 120g DANONE",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.54
+        },
+        {
+          "name": "TOFU NATURÁLNE 180g LUNTER BEZLEP",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.04
+        },
+        {
+          "name": "ŽUVAČKY ORBIT PEPPERMINT 14g DRAŽÉ MODRÉ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.58
+        },
+        {
+          "name": "BANÁNY ",
+          "itemType": "K",
+          "quantity": 0.51,
+          "vatRate": 20,
+          "price": 0.9
+        },
+        {
+          "name": "PETRŽLEN",
+          "itemType": "K",
+          "quantity": 0.145,
+          "vatRate": 20,
+          "price": 0.38
+        }
+      ],
+      "id": 47
+    },
+    {
+      "billId": "O-B0B622739335461BB622739335D61B88",
+      "date": 1672763020000,
       "items": [
         {
           "name": "Tvar. odtuč. 250g   ",
           "itemType": "K",
-          "quantity": 4,
+          "quantity": 3,
           "vatRate": 20,
-          "price": 3.16
+          "price": 2.67
         },
         {
-          "name": "Zľava Lidl Plus     ",
-          "itemType": "Z",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": -0.8
-        },
-        {
-          "name": "Chlieb lámankový    ",
+          "name": "Kivi 1kg kôš        ",
           "itemType": "K",
           "quantity": 1,
           "vatRate": 20,
-          "price": 1.49
+          "price": 2.49
         },
         {
           "name": "Repa červená        ",
           "itemType": "K",
-          "quantity": 0.592,
+          "quantity": 0.67,
           "vatRate": 20,
-          "price": 0.88
+          "price": 0.37
+        }
+      ],
+      "id": 48
+    },
+    {
+      "billId": "O-7189FA9467E5496589FA9467E5496585",
+      "date": 1672761968000,
+      "items": [
+        {
+          "name": "C/O GS REEBOK LINEAR READ TEE           ",
+          "itemType": "V",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": -9.55,
+          "referenceReceiptId": "O-03F5D23AE93742D8B5D23AE93722D8B6"
         },
         {
-          "name": "Mozzarella Light    ",
-          "itemType": "K",
-          "quantity": 4,
-          "vatRate": 20,
-          "price": 3
-        },
-        {
-          "name": "Mozzarella Classic  ",
+          "name": "WOR SUP SS GRAPHIC TEE                  ",
           "itemType": "K",
           "quantity": 1,
           "vatRate": 20,
-          "price": 0.75
-        }
-      ],
-      "id": 8
-    },
-    {
-      "billId": "O-1853AA267232449F93AA267232E49F2C",
-      "items": [
-        {
-          "name": "CHLIEB ZEMIAKOVÝ 500g FRAPEK",
-          "itemType": "K",
-          "quantity": 2,
-          "vatRate": 10,
-          "price": 2.53
+          "price": 16.75
         },
         {
-          "name": "TYČINKY VATOVÉ BAMBUSOVÉ 200ks ECO FRESH",
+          "name": "Dokladová zľava     ",
+          "itemType": "Z",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": -0.5
+        }
+      ],
+      "id": 49
+    },
+    {
+      "billId": "O-5F8C34EC74434C0F8C34EC74432C0FE2",
+      "date": 1672842171000,
+      "items": [
+        {
+          "name": "BANANY /kg",
+          "itemType": "K",
+          "quantity": 0.356,
+          "vatRate": 20,
+          "price": 0.67
+        },
+        {
+          "name": "FIGY 200g GARLAND",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.59
+        },
+        {
+          "name": "RAMA S MASLOM 400g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 3.59
+        },
+        {
+          "name": "VITATAB MAGNESIUM 80g",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.09
+        },
+        {
+          "name": "MIN CROISSANT DOUBLE COK NAP 74g",
+          "itemType": "K",
+          "quantity": 2,
+          "vatRate": 20,
+          "price": 1.3
+        },
+        {
+          "name": "MIN XL CROISSANT MASLOVY 60gJEM PEC",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.59
+        }
+      ],
+      "id": 50
+    },
+    {
+      "billId": "O-65DD7F5D518C480B9D7F5D518CE80B3E",
+      "date": 1673112263000,
+      "items": [
+        {
+          "name": "Kaiserka cereálna   ",
+          "itemType": "K",
+          "quantity": 4,
+          "vatRate": 20,
+          "price": 0.76
+        },
+        {
+          "name": "Kolienka 2-min.     ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 0.89
+        },
+        {
+          "name": "Brokolica 500g      ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 10,
+          "price": 0.99
+        },
+        {
+          "name": "Tvar. odtuč. 250g   ",
+          "itemType": "K",
+          "quantity": 5,
+          "vatRate": 20,
+          "price": 4.45
+        }
+      ],
+      "id": 51
+    },
+    {
+      "billId": "O-C9473A6E7C16491E873A6E7C16991E52",
+      "date": 1672321208000,
+      "items": [
+        {
+          "name": "Nupreme Chlorella BIO 750 t             ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 14.95
+        },
+        {
+          "name": "Balea deo Sensitive Care 20             ",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.25
+        }
+      ],
+      "id": 52
+    },
+    {
+      "billId": "O-FBAE33B05C8C4AA6AE33B05C8CAAA636",
+      "date": 1672935921000,
+      "items": [
+        {
+          "name": "KALERÁB ks",
+          "itemType": "K",
+          "quantity": 4,
+          "vatRate": 10,
+          "price": 1.76
+        },
+        {
+          "name": "CESTOVINY NIŤOVKY 2-VAJEČNÉ BABIČKINE 250g",
           "itemType": "K",
           "quantity": 1,
           "vatRate": 20,
           "price": 0.64
         },
         {
-          "name": "VODA MINERÁLNA  MATTONI CEDRATA 0.5l PLECH  VRATNÝ OBAL",
+          "name": "MRAZENÁ ZMES ZELENINOVÁ MAĎARSKÁ 300g FRESH",
           "itemType": "K",
           "quantity": 1,
           "vatRate": 20,
-          "price": 0.58
+          "price": 0.73
         },
         {
-          "name": "ZÁLOHOVANÝ OBAL PLECH",
+          "name": "VINEA BIELA 1.5l PET VRATNÝ OBAL",
+          "itemType": "K",
+          "quantity": 1,
+          "vatRate": 20,
+          "price": 1.32
+        },
+        {
+          "name": "ZÁLOHOVANÝ OBAL PET",
           "itemType": "K",
           "quantity": 1,
           "vatRate": 0,
           "price": 0.15
-        },
-        {
-          "name": "VODA MINERÁLNA MATTONI MULTI 0.5l PLECH VRATNÝ OBAL",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 0.58
-        },
-        {
-          "name": "ZÁLOHOVANÝ OBAL PLECH",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 0,
-          "price": 0.15
-        },
-        {
-          "name": "VODA MINERÁLNA  MATTONI CEDRATA 0.5l PLECH  VRATNÝ OBAL",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 0.58
-        },
-        {
-          "name": "ZÁLOHOVANÝ OBAL PLECH",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 0,
-          "price": 0.15
-        },
-        {
-          "name": "VODA MINERÁLNA MATTONI MULTI 0.5l PLECH VRATNÝ OBAL",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 0.58
-        },
-        {
-          "name": "ZÁLOHOVANÝ OBAL PLECH",
-          "itemType": "K",
-          "quantity": 1,
-          "vatRate": 0,
-          "price": 0.15
-        },
-        {
-          "name": "TOFU NATURÁLNE 180g LUNTER BEZLEP",
-          "itemType": "K",
-          "quantity": 2,
-          "vatRate": 20,
-          "price": 1.57
-        },
-        {
-          "name": "BONUS TERMO TAŠKA MATTONI",
-          "itemType": "Z",
-          "quantity": 1,
-          "vatRate": 20,
-          "price": 0
         }
       ],
-      "id": 9
-    },
-    {
-      "billId": "",
-      "items": [
-        {
-          "itemType": "",
-          "name": "",
-          "price": 0,
-          "quantity": 0,
-          "vatRate": 0
-        }
-      ],
-      "id": 10
-    },
-    {
-      "billId": "",
-      "items": [
-        {
-          "itemType": "",
-          "name": "",
-          "price": 0,
-          "quantity": 0,
-          "vatRate": 0
-        }
-      ],
-      "id": 11
-    },
-    {
-      "billId": "",
-      "items": [
-        {
-          "itemType": "",
-          "name": "",
-          "price": 0,
-          "quantity": 0,
-          "vatRate": 0
-        }
-      ],
-      "id": 12
+      "id": 53
     }
   ],
   "comments": [
@@ -924,44 +3542,64 @@
   ],
   "company": [
     {
-      "ico": 35793783,
-      "name": "Lidl Slovenská republika, v.o.s.",
-      "id": 1,
-      "category": [
-        1
-      ]
+      "ico": 17147786,
+      "name": "MILK-AGRO, spol. s r.o.",
+      "id": 1
     },
     {
       "ico": 36447269,
       "name": "KARMEN - veľkoobchod potravín s.r.o.",
-      "id": 2,
-      "category": []
+      "id": 2
     },
     {
-      "ico": 17147786,
-      "name": "MILK-AGRO, spol. s r.o.",
-      "id": 3,
-      "category": [
-        1
-      ]
-    },
-    {
-      "ico": 0,
-      "name": "Tst prijem",
-      "id": 4,
-      "category": []
+      "ico": 35793783,
+      "name": "Lidl Slovenská republika, v.o.s.",
+      "id": 3
     },
     {
       "ico": 36183181,
       "name": "LABAŠ s.r.o.",
-      "id": 5,
-      "category": []
+      "id": 4
+    },
+    {
+      "ico": 47658827,
+      "name": "Decathlon SK s. r. o.",
+      "id": 5
+    },
+    {
+      "ico": 51887819,
+      "name": "PPG Group s.r.o.",
+      "id": 6
+    },
+    {
+      "ico": 31443923,
+      "name": "Panta Rhei, s.r.o.",
+      "id": 7
+    },
+    {
+      "ico": 169111,
+      "name": "COOP Jednota Prešov, spotrebné družstvo",
+      "id": 8
     },
     {
       "ico": 45926409,
       "name": "Bottega, s.r.o.",
-      "id": 6,
-      "category": []
+      "id": 9
+    },
+    {
+      "ico": 36183181,
+      "name": "LABAŠ s.r.o.",
+      "id": 10
+    },
+    {
+      "ico": 36661856,
+      "name": "A3 SPORT s.r.o.",
+      "id": 11
+    },
+    {
+      "ico": 31393781,
+      "name": "dm drogerie markt, s.r.o.",
+      "id": 12
     }
   ],
   "categories": [

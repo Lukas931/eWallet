@@ -26,14 +26,14 @@ export class CompanyService {
     return this.http.post<Company>(this.apiUrl, company, httpOptions);
   }
 
-
   getCompany(ico:number):Observable<Company>{
-     const url = `${this.apiUrl}?ico=${ico}`;
-     return this.http.get<Company>(url);
+    const url = `${this.apiUrl}?ico=${ico}`;
+    return this.http.get<Company>(url);
   }
 
   updateCompany(ico:number,company:Company):Observable<Company>{
     const url = `${this.apiUrl}/${ico}/`;
     return this.http.put<Company>(url, company, httpOptions);
   }
+  
 }

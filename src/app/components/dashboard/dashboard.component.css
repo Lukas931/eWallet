@@ -1,32 +1,32 @@
-.wallet-summary{
+.wallet-summary {}
 
-}
-.summary-income{
-	color: green;
-}
-.summary-outcome{
-	color: red;
+.summary-income {
+    color: green;
 }
 
-.dashboard-list{
-	border-radius: 10px;
-	overflow: auto;
-	width: 50%;
-	margin: auto;
-	position: relative;
-	top: -35px;
-	max-height: calc(100vh - 370px);
+.summary-outcome {
+    color: red;
 }
 
-.wallet-summary{
-	background-color: #FFF;
-	justify-content: space-between;
-	padding: 5px 10px;
-	height: 80px;
-	border-bottom: 1px solid #f4f6fa;
+.dashboard-list {
+    border-radius: 10px;
+    overflow: auto;
+    margin: auto;
+    position: relative;
+    top: -35px;
+    max-height: calc(100vh - 370px);
 }
-.month-filter{
-	position: fixed;
-	bottom: 50px;
-	left: 50px;
+
+.wallet-summary {
+    background-color: #FFF;
+    justify-content: space-between;
+    padding: 5px 10px;
+    height: 80px;
+    border-bottom: 1px solid #f4f6fa;
+}
+
+.month-filter {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
 }

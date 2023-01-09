@@ -1,0 +1,29 @@
+.alphabet-sort {
+    margin: 10px 0;
+}
+
+.alphabet-sort .alphabet-item {
+    text-align: center;
+    cursor: pointer;
+}
+
+.alphabet-sort .alphabet-item:hover {
+    font-weight: 900;
+}
+
+.item-row {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #000
+}
+
+.item-row .table-container {
+    overflow: hidden;
+    max-height: 0;
+    transition: all .4;
+}
+
+.item-row.is-selected .table-container {
+    max-height: 99999px;
+}
